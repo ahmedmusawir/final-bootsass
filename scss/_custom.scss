@@ -1,0 +1,45 @@
+@import "bourbon/bourbon";
+$core-color: #3e3e3e;
+
+body {
+	background-color: $core-color;
+	color: lighten( $core-color, 50% );
+
+}
+
+.hero-unit {
+
+
+	.hero-content {
+		margin: 10rem auto 0;
+		padding: 10rem;
+		width: 90%;
+		background-color: transparentize( $core-color, .2 );
+		text-align: center;
+
+		.intro-poem {
+			margin-top: 6rem;
+		}
+
+	}
+}
+
+section {
+	padding: 3rem;
+}
+
+.section-one {
+	background: transparentize( red, .5 );
+}
+
+.section-two {
+	background: transparentize( yellow, .5 );
+}
+
+.section-three {
+	background: transparentize( dodgerblue, .5 );
+}
+
+.section-four {
+	background: transparentize( green, .5 );
+}
