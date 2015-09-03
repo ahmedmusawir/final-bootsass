@@ -59,7 +59,7 @@
       
 
         </div> <!-- end row -->
-        <div class="row">
+        <!-- <div class="row">
         
           <article class="col-sm-2 col-md-2">
               <p>
@@ -79,7 +79,8 @@
             </p>
           </article>
 
-        </div> <!-- end row -->
+        </div>  -->
+        <!-- end row -->
     
         <div class="text-center about-us-btn"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
 
@@ -118,7 +119,7 @@
       </p>
     </div>
 
-    <div class="text-content text-center">
+   <!--  <div class="text-content text-center">
 
       <h4>CLOSE</h4>
       <p>
@@ -136,7 +137,7 @@
         Be away ... <br>
       </p>
     </div>
-
+ -->
   </figure>
 
   <div class="text-center"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
@@ -148,10 +149,10 @@
   
   <h3>Our Speakers</h3>
 
-  <article class="our-speaker-content grid hidden-xs">
+  <article class="our-speaker-content grid">
 
-      <figure class="our-speaker-img effect-layla">
-          <img class="img-responsive" src="http://lorempixel.com/480/360/abstract/2" alt="">  
+     <!--  <figure class="our-speaker-img effect-oscar">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/2" alt="">  
         <figcaption>
           <h2>Nice <span>Lily</span></h2>
           <a class="btn btn-sm btn-primary" href="#">View more</a>
@@ -160,8 +161,18 @@
         </figcaption>   
       </figure>
 
-     <figure class="our-speaker-img effect-layla">
-          <img class="img-responsive" src="http://lorempixel.com/480/360/abstract/2" alt="">  
+     <figure class="our-speaker-img effect-oscar">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/3" alt="">  
+        <figcaption>
+          <h2>Nice <span>Lily</span></h2>
+          <a href="#">View more</a>
+
+          <p>Lily likes to play with crayons and pencils</p>
+        </figcaption>   
+      </figure> -->
+
+      <!-- <figure class="our-speaker-img effect-chico">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/4" alt="">  
         <figcaption>
           <h2>Nice <span>Lily</span></h2>
           <a href="#">View more</a>
@@ -171,32 +182,22 @@
       </figure>
 
       <figure class="our-speaker-img effect-chico">
-          <img class="img-responsive" src="http://lorempixel.com/480/360/abstract/2" alt="">  
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/5" alt="">  
         <figcaption>
           <h2>Nice <span>Lily</span></h2>
           <a href="#">View more</a>
 
           <p>Lily likes to play with crayons and pencils</p>
         </figcaption>   
-      </figure>
-
-      <figure class="our-speaker-img effect-chico">
-          <img class="img-responsive" src="http://lorempixel.com/480/360/abstract/2" alt="">  
-        <figcaption>
-          <h2>Nice <span>Lily</span></h2>
-          <a href="#">View more</a>
-
-          <p>Lily likes to play with crayons and pencils</p>
-        </figcaption>   
-      </figure>
+      </figure> -->
       
-  <div class="text-center"><a href="#" class="btn btn-danger btn-large our-speaker-btn" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
+  <!-- <div class="text-center"><a href="#" class="btn btn-danger btn-large our-speaker-btn" title="">Discover More <i class="fa fa-chevron-right"></i></a></div> -->
 
   </article> <!-- end our-speaker-content  -->
 
-  <article class="our-speaker-iphone-content visible-xs">
+  <article class="our-speaker-iphone-content ">
     <a href="#">
-      <figure class="our-speaker-img col-xs-6">
+      <figure class="our-speaker-img col-xs-6 col-md-6 col-sm-6">
           <p>
             <img class="img-responsive img-thumbnail" src="http://lorempixel.com/300/300/abstract/2" alt="">  
           </p>
@@ -208,7 +209,7 @@
         </figure>
       </a>
       <a href="#">
-        <figure class="our-speaker-img col-xs-6">
+        <figure class="our-speaker-img col-xs-6 col-md-6 col-sm-6">
           <p>
             <img class="img-responsive img-thumbnail" src="http://lorempixel.com/300/300/abstract/2" alt="">  
           </p>
@@ -219,30 +220,8 @@
           </figcaption>   
         </figure>
       </a>
-      <a href="#">  
-        <figure class="our-speaker-img col-xs-6">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/300/300/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
+     
 
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-6">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/300/300/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
   <div class="text-center"><a href="#" class="btn btn-danger btn-large our-speaker-btn" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
 
 
@@ -284,6 +263,32 @@
       
     
       <button type="submit" class="btn btn-success btn-block">Submit</button>
+
+
+      <!-- <div class="container"> -->
+
+        <!-- <article class="contact-social-icons">
+
+          <h4 class="text-center">Lets Socialize ...</h4>
+
+          <aside class="col-md-3 col-sm-3 col-xs-6">
+            <a href="#" title=""><i class="fa fa-twitter"></i></a>
+          </aside>
+          <aside class="col-md-3 col-sm-3 col-xs-6">
+            <a href="#" title=""><i class="fa fa-facebook"></i></a>
+          </aside>
+          <aside class="col-md-3 col-sm-3 col-xs-6">
+            <a href="#" title=""><i class="fa fa-google-plus"></i></a>
+          </aside>
+          <aside class="col-md-3 col-sm-3 col-xs-6">
+            <a href="#" title=""><i class="fa fa-instagram"></i></a>
+          </aside>
+
+        </article> -->
+      
+
+        <!-- </div>  -->
+        <!-- end row -->
     </form>
 
     

@@ -23,12 +23,12 @@
     	<?php //$youtube =  'tFx6wt_gI3A'; ?> //pretty cool, need to watch the full video
     	<?php //$youtube =  'txyhCiALf2Y'; ?> //End Text Kills it
     	<?php //$youtube =  '4hPiG1fr68Q'; ?> //Low video quality
-    	<?php //$youtube =  'GdFRB7D53Do'; ?> //Perfect 
-    	<?php //$youtube =  'svnh39AL11g'; ?>   //Perfect
+    	<?php //$youtube =  'GdFRB7D53Do'; ?> //Perfect - but too happy
+    	<?php $youtube =  'svnh39AL11g'; ?>   //Perfect
     	<?php //$youtube =  'zGtz_GOA79w'; ?> //Dubai
     	<?php //$youtube =  'a6g7aqILL3Y'; ?> //Scary Starfish
-    	<?php //$youtube =  'h9NnctZVrvk'; ?> //Perfect
-    	<?php //$youtube =  '_QqfifH3-rk'; ?> //Perfect
+    	<?php //$youtube =  'h9NnctZVrvk'; ?> //Perfect - insect creepy
+    	<?php //$youtube =  '_QqfifH3-rk'; ?> //Perfect - but text flash at the end
     	<?php //$youtube =  'ryqdoe6xLs4'; ?> //Nice and Bright
     	<?php //$youtube =  'NZABo8G94cI'; ?> //Black bar at top and bottom
     	<?php //$youtube =  'yIbf5IUsaSA'; ?> //Perfect
@@ -37,7 +37,7 @@
 			var options = { videoId: '<?php echo $youtube; ?>', start: 30 };
 			// var options = { videoId: 'ab0TSkLe-E0', start: 3 };
 			// $('#myVideo').tubular(options);
-			// $('#wrapper').tubular(options);
+			$('#wrapper').tubular(options);
 			// f-UGhWj1xww cool sepia hd
 			// 49SKbS7Xwf4 beautiful barn sepia
 		});
