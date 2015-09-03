@@ -11,8 +11,11 @@
     <title>Off Canvas Reveal Menu Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
+    
     <link href="style.css" rel="stylesheet">
-    <link href="css/bootstrap.offcanvas.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/set1.css" />
+    
+    <!-- <link href="css/bootstrap.offcanvas.min.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
     <!-- <link href="css/navmenu-reveal.css" rel="stylesheet"> -->

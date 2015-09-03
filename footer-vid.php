@@ -15,13 +15,11 @@
     	<!-- // <script type="text/javascript" charset="utf-8" src="js/index.js"></script> -->
     	<script>
 
-    	<?php //$youtube =  'WTAHzO1i6Mw'; ?>
-    	<?php //$youtube =  '0DUoQgCnNlE'; ?>
-    	<?php //$youtube =  'JC2w3H1NpX0'; ?>
-    	<?php //$youtube =  'CLMQdZ-dwi4'; ?>
-    	<?php //$youtube =  '8gD_9WPPFb4'; ?>
-    	<?php //$youtube =  '7GIsNkPNcW4'; ?>
-    	<?php $youtube =  'DaYx4XmWEoI'; ?>
+    	<?php //$youtube =  'WTAHzO1i6Mw'; ?> //perfect animal
+    	<?php //$youtube =  '0DUoQgCnNlE'; ?> //nice and small, cannot cut any play time from the front
+    	<?php //$youtube =  'JC2w3H1NpX0'; ?> //planet earth at the beging may be at the end too
+    	<?php //$youtube =  'CLMQdZ-dwi4'; ?> //ok
+    	<?php //$youtube =  'DaYx4XmWEoI'; ?> //perfect
     	<?php //$youtube =  'tFx6wt_gI3A'; ?> //pretty cool, need to watch the full video
     	<?php //$youtube =  'txyhCiALf2Y'; ?> //End Text Kills it
     	<?php //$youtube =  '4hPiG1fr68Q'; ?> //Low video quality
