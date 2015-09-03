@@ -1,14 +1,18 @@
 @import "bourbon/bourbon";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
 $core-color: #3e3e3e;
 
 body {
 	background-color: $core-color;
 	color: lighten( $core-color, 50% );
+	// font-family: 'Raleway', sans-serif;
+	font-family: 'Architects Daughter', cursive;
 
 }
 
 .hero-unit {
-
+	// background: url(img/bg.jpg);
 
 	.hero-content {
 		margin: 10rem auto 0;
@@ -18,8 +22,23 @@ body {
 		text-align: center;
 
 		.intro-poem {
-			margin-top: 6rem;
+			margin-top: 5rem;
 		}
+
+		.intro-poem-icon {
+			font-size: 5rem;
+			display: block;
+			padding-left: 4rem;
+		}
+		
+		h1 {
+			font-size: 8rem;
+		}
+		h4 {
+			margin-top: 2rem;
+			font-size: 2rem;
+		}
+
 
 	}
 }
@@ -29,7 +48,30 @@ section {
 }
 
 .section-one {
-	background: transparentize( red, .5 );
+	background: transparentize( darken( red, 20% ), .5 );
+
+	h3 {
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+			font-size: 5rem;
+			text-align: center;
+		}
+
+	.section-one-content {
+		padding-top: 2rem;
+
+		.row {
+			margin-bottom: 3rem;
+			background-color: transparentize( $core-color, .2 );
+			padding-top: 4rem;
+			padding-bottom: 3rem;
+			padding-left: 2rem;
+		}
+
+		.icon-about-us {
+			font-size: 8rem;
+		}
+	}
 }
 
 .section-two {
