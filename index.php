@@ -257,7 +257,35 @@
   
   <h3>Talk To Us</h3>
   
-  <article class="contact-content col-sm-2 col-md-3">
+  <article class="contact-content">
+    
+    <form action="" method="POST" role="form">
+      <!-- <legend>Contact Us</legend> -->
+    
+      <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" class="form-control" id="" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="">Subject</label>
+        <input type="text" class="form-control" id="" placeholder="Subject">
+      </div>
+      <div class="form-group">
+        <label for="">Email</label>
+        <input type="text" class="form-control" id="" placeholder="Your Email">
+      </div>
+      <div class="form-group">
+        <label for="">Comments</label>
+        <textarea  type="text" class="form-control" id="" cols="" rows="10" placeholder="Your Comments">
+
+        </textarea>
+      </div>
+    
+      
+    
+      <button type="submit" class="btn btn-success btn-block">Submit</button>
+    </form>
+
     
   </article>
   
@@ -266,5 +294,35 @@
   
     
 <?php include "footer-vid.php"; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  

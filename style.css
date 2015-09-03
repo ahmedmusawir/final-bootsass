@@ -12266,7 +12266,13 @@ section {
 .section-three {
   background: rgba(0, 93, 183, 0.5);
 }
-/* line 156, scss/_custom.scss */
+@media screen and (max-width: 500px) {
+  /* line 153, scss/_custom.scss */
+  .section-three {
+    padding-top: 15rem;
+  }
+}
+/* line 159, scss/_custom.scss */
 .section-three h3 {
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -12275,53 +12281,53 @@ section {
   font-size: 4rem;
   text-align: center;
 }
-/* line 167, scss/_custom.scss */
+/* line 170, scss/_custom.scss */
 .section-three .our-speaker-content {
   margin-top: 0rem;
 }
-/* line 170, scss/_custom.scss */
+/* line 173, scss/_custom.scss */
 .section-three .our-speaker-content .our-speaker-btn {
   margin-top: 3rem;
 }
-/* line 176, scss/_custom.scss */
+/* line 179, scss/_custom.scss */
 .section-three .our-speaker-iphone-content {
   margin-top: 5rem;
 }
-/* line 179, scss/_custom.scss */
+/* line 182, scss/_custom.scss */
 .section-three .our-speaker-iphone-content .our-speaker-btn {
   margin-top: 5rem;
 }
-/* line 184, scss/_custom.scss */
+/* line 187, scss/_custom.scss */
 .section-three .our-speaker-iphone-content figure {
   position: relative;
 }
-/* line 187, scss/_custom.scss */
+/* line 190, scss/_custom.scss */
 .section-three .our-speaker-iphone-content figure:hover {
   color: white;
 }
-/* line 191, scss/_custom.scss */
+/* line 194, scss/_custom.scss */
 .section-three .our-speaker-iphone-content figure figcaption {
   position: absolute;
   top: 0;
   left: 3rem;
 }
-/* line 198, scss/_custom.scss */
+/* line 201, scss/_custom.scss */
 .section-three .our-speaker-iphone-content figure img {
   opacity: .5;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 203, scss/_custom.scss */
+/* line 206, scss/_custom.scss */
 .section-three .our-speaker-iphone-content figure img:hover {
   opacity: 1;
 }
 
-/* line 211, scss/_custom.scss */
+/* line 214, scss/_custom.scss */
 .section-four {
   background: rgba(0, 128, 0, 0.5);
 }
-/* line 214, scss/_custom.scss */
+/* line 217, scss/_custom.scss */
 .section-four h3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -12329,4 +12335,50 @@ section {
   padding-bottom: 2rem;
   font-size: 4rem;
   text-align: center;
+}
+/* line 229, scss/_custom.scss */
+.section-four form legend {
+  color: #bebebe;
+}
+@media screen and (min-width: 320px) {
+  /* line 228, scss/_custom.scss */
+  .section-four form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  /* line 228, scss/_custom.scss */
+  .section-four form {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  /* line 228, scss/_custom.scss */
+  .section-four form {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 228, scss/_custom.scss */
+  .section-four form {
+    padding-left: 30rem;
+    padding-right: 30rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  /* line 228, scss/_custom.scss */
+  .section-four form {
+    padding-left: 40rem;
+    padding-right: 40rem;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* line 228, scss/_custom.scss */
+  .section-four form {
+    padding-left: 50rem;
+    padding-right: 50rem;
+  }
 }
