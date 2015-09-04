@@ -1,6 +1,6 @@
 <?php include "header-vid.php"; ?>
 
-<header class="hero-unit clearfix">
+<section class="hero-unit clearfix section">
 
    <div class="hero-content">
      
@@ -26,28 +26,28 @@
     </p>
 
     <p>
-      <a href="#section-one" title=""><span class="intro-arrow-icon"><i class="fa fa-flash"></i></span></a>
+      <a href="#section-one" title=""><span class="intro-arrow-icon animated infinite zoomIn"><i class="fa fa-flash"></i></span></a>
     </p>
 
    </div>
         
-</header>
+</section>
 
-<section id="section-one" class="section-one container-fluid">
+<section id="section-one" class="section-one container-fluid section">
   
   <h3>About Us</h3>  
   
   <div class="section-one-content container">
 
-      <div class="row">
+      <div class="row top-block" >
 
-        <article class="col-sm-2 col-md-2 col-md-push-10 col-sm-push-10">
+        <article class="col-xs-3 col-sm-2 col-md-2 col-md-push-10 col-sm-push-10">
             <p>
               <span class="icon-about-us"><i class="fa fa-xing"></i></span>
             </p>
         </article>
       
-        <article class="text col-sm-10 col-md-10 col-md-pull-2 col-sm-pull-2">
+        <article class="text col-xs-9 col-sm-10 col-md-10 col-md-pull-2 col-sm-pull-2">
         <h4>Reason</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -59,9 +59,9 @@
       
 
         </div> <!-- end row -->
-        <div class="row hidden-xs">
+        <div class="row bottom-block hidden-xs" >
         
-          <article class="col-sm-2 col-md-2">
+          <article class="col-xs-3 col-sm-2 col-md-2">
               <p>
                 
               <span class="icon-about-us"><i class="fa fa-pied-piper-alt "></i></span>
@@ -69,7 +69,7 @@
 
               </p>
           </article>
-          <article class="text col-sm-10 col-md-10">
+          <article class="text col-xs-9 col-sm-10 col-md-10">
           <h4>Evidence</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -88,7 +88,7 @@
 
 </section>
   
-<section class="section-two container-fluid">
+<section class="section-two container-fluid section">
   
 
   <figure class="video-container">
@@ -141,7 +141,7 @@
   
 </section>
 
-<section class="section-three container-fluid">
+<section class="section-three container-fluid section">
   
   <h3>Our Speakers</h3>
 
@@ -225,12 +225,10 @@
 
   </article> <!-- end our-speaker-iphone-content  -->
       
-
-
   
 </section>
 
-<section class="section-four container-fluid">
+<section class="section-four container-fluid section">
   
   <h3>Talk To Us</h3>
   

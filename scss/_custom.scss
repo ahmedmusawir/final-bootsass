@@ -11,6 +11,36 @@ body {
 
 }
 
+@keyframes slideMine {
+	0% {
+		margin-left: -100%;
+	}
+	100% {
+		margin-left: 0;
+	}
+}
+
+
+.active {
+	h1 {
+		animation: slideMine 2s forwards;
+  	// border: 1px solid yellow;
+
+	}
+  .top-block {
+		animation: slideMine 2s forwards;
+  	
+  }
+  .bottom-block {
+  	@include animation-name( fadeInRight );
+	  @include animation-duration(3s);
+	  @include animation-timing-function(ease);
+	  // @include animation-delay(2s);
+	  @include animation-direction(forwards);
+	  
+  }
+ }
+
 .onepage-pagination {
 	z-index: 1000;
 }
@@ -86,6 +116,8 @@ section {
 			padding-top: 4rem;
 			padding-bottom: 3rem;
 			padding-left: 2rem;
+
+			z-index: 1001;
 		}
 
 		.icon-about-us {
@@ -163,6 +195,8 @@ section {
 			padding-top: 2rem;
 			padding-bottom: 2rem;
 			margin-bottom: 2rem;
+			margin-left: 2rem;
+			margin-right: 2rem;
 
 			h4 {
 				padding-bottom: 2rem;

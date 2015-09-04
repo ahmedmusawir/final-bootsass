@@ -12147,22 +12147,54 @@ body {
   font-family: 'Architects Daughter', cursive;
 }
 
-/* line 14, scss/_custom.scss */
+@keyframes slideMine {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+/* line 25, scss/_custom.scss */
+.active h1 {
+  animation: slideMine 2s forwards;
+}
+/* line 30, scss/_custom.scss */
+.active .top-block {
+  animation: slideMine 2s forwards;
+}
+/* line 34, scss/_custom.scss */
+.active .bottom-block {
+  -webkit-animation-name: fadeInRight;
+  -moz-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+
+/* line 44, scss/_custom.scss */
 .onepage-pagination {
   z-index: 1000;
 }
 
-/* line 18, scss/_custom.scss */
+/* line 48, scss/_custom.scss */
 .onepage-pagination li a.active:before {
   border: 2px solid lightgrey;
 }
 
-/* line 22, scss/_custom.scss */
+/* line 52, scss/_custom.scss */
 .onepage-pagination li a:before {
   background: lightgrey;
 }
 
-/* line 29, scss/_custom.scss */
+/* line 59, scss/_custom.scss */
 .hero-unit .hero-content {
   margin: 4rem auto 0;
   padding: 5rem;
@@ -12170,54 +12202,54 @@ body {
   background-color: rgba(62, 62, 62, 0.8);
   text-align: center;
 }
-/* line 36, scss/_custom.scss */
+/* line 66, scss/_custom.scss */
 .hero-unit .hero-content .intro-poem {
   margin-top: 5rem;
 }
-/* line 40, scss/_custom.scss */
+/* line 70, scss/_custom.scss */
 .hero-unit .hero-content .intro-poem-icon {
   font-size: 5rem;
   display: block;
 }
-/* line 46, scss/_custom.scss */
+/* line 76, scss/_custom.scss */
 .hero-unit .hero-content .intro-arrow-icon {
   font-size: 5rem;
 }
-/* line 50, scss/_custom.scss */
+/* line 80, scss/_custom.scss */
 .hero-unit .hero-content h1 {
   font-size: 8rem;
 }
-/* line 53, scss/_custom.scss */
+/* line 83, scss/_custom.scss */
 .hero-unit .hero-content h3 {
   font-size: 4rem;
 }
-/* line 56, scss/_custom.scss */
+/* line 86, scss/_custom.scss */
 .hero-unit .hero-content h4 {
   margin-top: 2rem;
   font-size: 2rem;
 }
 
-/* line 65, scss/_custom.scss */
+/* line 95, scss/_custom.scss */
 section {
   padding: 3rem;
 }
 
-/* line 69, scss/_custom.scss */
+/* line 99, scss/_custom.scss */
 .section-one {
   background: rgba(153, 0, 0, 0.5);
 }
-/* line 72, scss/_custom.scss */
+/* line 102, scss/_custom.scss */
 .section-one h3 {
   margin-top: 3rem;
   margin-bottom: 0rem;
   font-size: 5rem;
   text-align: center;
 }
-/* line 79, scss/_custom.scss */
+/* line 109, scss/_custom.scss */
 .section-one .section-one-content {
   padding-top: 2rem;
 }
-/* line 82, scss/_custom.scss */
+/* line 112, scss/_custom.scss */
 .section-one .section-one-content .row {
   margin-bottom: 4rem;
   margin-top: 4rem;
@@ -12225,15 +12257,16 @@ section {
   padding-top: 4rem;
   padding-bottom: 3rem;
   padding-left: 2rem;
+  z-index: 1001;
 }
-/* line 91, scss/_custom.scss */
+/* line 123, scss/_custom.scss */
 .section-one .section-one-content .icon-about-us {
   font-size: 8rem;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
-/* line 95, scss/_custom.scss */
+/* line 127, scss/_custom.scss */
 .section-one .section-one-content .icon-about-us:hover {
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
@@ -12257,7 +12290,7 @@ section {
   transform-style: preserve-3d;
 }
 
-/* line 109, scss/_custom.scss */
+/* line 141, scss/_custom.scss */
 .section-two {
   background: rgba(255, 255, 0, 0.5);
   padding-top: 0rem;
@@ -12268,7 +12301,7 @@ section {
   position: relative;
   z-index: -9;
 }
-/* line 125, scss/_custom.scss */
+/* line 157, scss/_custom.scss */
 .section-two h3 {
   margin-top: 3rem;
   margin-bottom: 0rem;
@@ -12278,12 +12311,12 @@ section {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 125, scss/_custom.scss */
+  /* line 157, scss/_custom.scss */
   .section-two h3 {
     margin-bottom: 5rem;
   }
 }
-/* line 145, scss/_custom.scss */
+/* line 177, scss/_custom.scss */
 .section-two .video-container video#second-section-video {
   position: absolute;
   top: 0;
@@ -12296,29 +12329,31 @@ section {
   z-index: -8;
   background-size: cover;
 }
-/* line 159, scss/_custom.scss */
+/* line 191, scss/_custom.scss */
 .section-two .video-container .text-content {
   background-color: rgba(139, 0, 0, 0.7);
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
-/* line 167, scss/_custom.scss */
+/* line 201, scss/_custom.scss */
 .section-two .video-container .text-content h4 {
   padding-bottom: 2rem;
 }
 
-/* line 177, scss/_custom.scss */
+/* line 211, scss/_custom.scss */
 .section-three {
   background: rgba(0, 93, 183, 0.5);
 }
 @media screen and (max-width: 640px) {
-  /* line 177, scss/_custom.scss */
+  /* line 211, scss/_custom.scss */
   .section-three {
     padding-top: 15rem;
   }
 }
-/* line 183, scss/_custom.scss */
+/* line 217, scss/_custom.scss */
 .section-three h3 {
   margin-top: 0rem;
   margin-bottom: 2rem;
@@ -12327,51 +12362,51 @@ section {
   font-size: 4rem;
   text-align: center;
 }
-/* line 196, scss/_custom.scss */
+/* line 230, scss/_custom.scss */
 .section-three .our-speaker-content {
   margin-top: 0rem;
 }
-/* line 199, scss/_custom.scss */
+/* line 233, scss/_custom.scss */
 .section-three .our-speaker-content .our-speaker-btn {
   margin-top: 3rem;
 }
-/* line 204, scss/_custom.scss */
+/* line 238, scss/_custom.scss */
 .section-three .our-speaker-content figure {
   position: relative;
 }
-/* line 208, scss/_custom.scss */
+/* line 242, scss/_custom.scss */
 .section-three .our-speaker-content figure:hover {
   color: white;
 }
-/* line 212, scss/_custom.scss */
+/* line 246, scss/_custom.scss */
 .section-three .our-speaker-content figure figcaption {
   position: absolute;
   top: 0;
   left: 3rem;
 }
 @media screen and (max-width: 500px) {
-  /* line 218, scss/_custom.scss */
+  /* line 252, scss/_custom.scss */
   .section-three .our-speaker-content figure figcaption h4 {
     font-size: 1rem;
   }
 }
-/* line 224, scss/_custom.scss */
+/* line 258, scss/_custom.scss */
 .section-three .our-speaker-content figure img {
   opacity: .5;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 229, scss/_custom.scss */
+/* line 263, scss/_custom.scss */
 .section-three .our-speaker-content figure img:hover {
   opacity: 1;
 }
 
-/* line 237, scss/_custom.scss */
+/* line 271, scss/_custom.scss */
 .section-four {
   background: rgba(0, 77, 0, 0.5);
 }
-/* line 240, scss/_custom.scss */
+/* line 274, scss/_custom.scss */
 .section-four h3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -12380,90 +12415,90 @@ section {
   font-size: 4rem;
   text-align: center;
 }
-/* line 254, scss/_custom.scss */
+/* line 288, scss/_custom.scss */
 .section-four .contact-content legend {
   color: #bebebe;
 }
 @media screen and (min-width: 320px) {
-  /* line 251, scss/_custom.scss */
+  /* line 285, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 251, scss/_custom.scss */
+  /* line 285, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 @media screen and (min-width: 1100px) {
-  /* line 251, scss/_custom.scss */
+  /* line 285, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 20rem;
     padding-right: 20rem;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 251, scss/_custom.scss */
+  /* line 285, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 30rem;
     padding-right: 30rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  /* line 251, scss/_custom.scss */
+  /* line 285, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 40rem;
     padding-right: 40rem;
   }
 }
 @media screen and (min-width: 1800px) {
-  /* line 251, scss/_custom.scss */
+  /* line 285, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 50rem;
     padding-right: 50rem;
   }
 }
-/* line 285, scss/_custom.scss */
+/* line 319, scss/_custom.scss */
 .section-four .contact-social-icons {
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 5rem;
 }
-/* line 293, scss/_custom.scss */
+/* line 327, scss/_custom.scss */
 .section-four .contact-social-icons aside {
   padding-top: 0rem;
   font-size: 2.5rem;
   padding-left: 9rem;
 }
 @media screen and (max-width: 900px) {
-  /* line 293, scss/_custom.scss */
+  /* line 327, scss/_custom.scss */
   .section-four .contact-social-icons aside {
     padding-left: 6rem;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 293, scss/_custom.scss */
+  /* line 327, scss/_custom.scss */
   .section-four .contact-social-icons aside {
     padding-left: 4rem;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 293, scss/_custom.scss */
+  /* line 327, scss/_custom.scss */
   .section-four .contact-social-icons aside {
     padding-left: 3rem;
   }
 }
-/* line 309, scss/_custom.scss */
+/* line 343, scss/_custom.scss */
 .section-four .contact-social-icons aside a {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   color: #3bb16f;
 }
-/* line 313, scss/_custom.scss */
+/* line 347, scss/_custom.scss */
 .section-four .contact-social-icons aside a:hover {
   color: #caeeda;
   -webkit-transform: translateY(50px);

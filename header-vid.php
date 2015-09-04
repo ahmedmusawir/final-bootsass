@@ -11,7 +11,7 @@
     <title>Off Canvas Reveal Menu Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
     
     <link href="style.css" rel="stylesheet">
     
@@ -31,6 +31,6 @@
   </head>
 
  <body>
-  <section  id="wrapper">
+  <div  id="wrapper">
 
     
