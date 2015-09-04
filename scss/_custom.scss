@@ -11,6 +11,18 @@ body {
 
 }
 
+.onepage-pagination {
+	z-index: 1000;
+}
+
+.onepage-pagination li a.active:before {
+    border: 2px solid lightgrey;
+}
+
+.onepage-pagination li a:before {
+    background: lightgrey;
+}
+
 .hero-unit {
 	// background: url(img/bg.jpg);
 
@@ -140,7 +152,7 @@ section {
 			width: auto;
 			height: auto;
 			z-index: -8;
-			background: url("img/second-section.jpg") no-repeat;
+			// background: url("img/second-section.jpg") no-repeat;
 			background-size: cover;
 		}
 
@@ -164,9 +176,9 @@ section {
 
 .section-three {
 	background: transparentize( darken( dodgerblue, 20% ), .5 );
-	// @media screen and ( max-width: 500px ) {
-	// 	padding-top: 15rem;
-	// }
+	@media screen and ( max-width: 640px ) {
+		padding-top: 15rem;
+	}
 
 	h3 {
 		margin-top: 0rem;
@@ -281,7 +293,18 @@ section {
 		aside {
 			padding-top: 0rem;
 			font-size: 2.5rem;
-			padding-left: 8rem;
+			padding-left: 9rem;
+			// margin-left: 6rem;
+
+			@media screen and ( max-width: 900px ) {
+				padding-left: 6rem;
+			}
+			@media screen and ( max-width: 550px ) {
+				padding-left: 4rem;
+			}
+			@media screen and ( max-width: 400px ) {
+				padding-left: 3rem;
+			}
 
 			a {
 				@include transition(all 1.0s ease-in-out);

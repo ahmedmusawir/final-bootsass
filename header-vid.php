@@ -11,7 +11,7 @@
     <title>Off Canvas Reveal Menu Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/set1.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" /> -->
     
     <link href="style.css" rel="stylesheet">
     

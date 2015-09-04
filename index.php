@@ -267,16 +267,16 @@
 
         <article class="contact-social-icons">
 
-          <aside class="col-md-3 col-sm-3 col-xs-6">
+          <aside class="col-md-3 col-sm-3 col-xs-3">
             <a href="#" title=""><i class="fa fa-twitter"></i></a>
           </aside>
-          <aside class="col-md-3 col-sm-3 col-xs-6">
+          <aside class="col-md-3 col-sm-3 col-xs-3">
             <a href="#" title=""><i class="fa fa-facebook"></i></a>
           </aside>
-          <aside class="col-md-3 col-sm-3 col-xs-6">
+          <aside class="col-md-3 col-sm-3 col-xs-3">
             <a href="#" title=""><i class="fa fa-google-plus"></i></a>
           </aside>
-          <aside class="col-md-3 col-sm-3 col-xs-6">
+          <aside class="col-md-3 col-sm-3 col-xs-3">
             <a href="#" title=""><i class="fa fa-instagram"></i></a>
           </aside>
 
