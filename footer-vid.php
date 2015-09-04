@@ -19,12 +19,12 @@
     	<?php //$youtube =  '0DUoQgCnNlE'; ?> //nice and small, cannot cut any play time from the front
     	<?php //$youtube =  'JC2w3H1NpX0'; ?> //planet earth at the beging may be at the end too
     	<?php //$youtube =  'CLMQdZ-dwi4'; ?> //ok
-    	<?php //$youtube =  'DaYx4XmWEoI'; ?> //perfect
+    	<?php $youtube =  'DaYx4XmWEoI'; ?> //perfect
     	<?php //$youtube =  'tFx6wt_gI3A'; ?> //pretty cool, need to watch the full video
     	<?php //$youtube =  'txyhCiALf2Y'; ?> //End Text Kills it
     	<?php //$youtube =  '4hPiG1fr68Q'; ?> //Low video quality
     	<?php //$youtube =  'GdFRB7D53Do'; ?> //Perfect - but too happy
-    	<?php $youtube =  'svnh39AL11g'; ?>   //Perfect
+    	<?php //$youtube =  'svnh39AL11g'; ?>   //Perfect
     	<?php //$youtube =  'zGtz_GOA79w'; ?> //Dubai
     	<?php //$youtube =  'a6g7aqILL3Y'; ?> //Scary Starfish
     	<?php //$youtube =  'h9NnctZVrvk'; ?> //Perfect - insect creepy

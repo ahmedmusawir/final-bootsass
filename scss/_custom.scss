@@ -39,7 +39,7 @@ body {
 			font-size: 8rem;
 		}
 		h3 {
-			font-size: 5.5rem;
+			font-size: 4rem;
 		}
 		h4 {
 			margin-top: 2rem;
@@ -112,7 +112,11 @@ section {
 
 		h3 {
 			margin-top: 3rem;
-			margin-bottom: 3rem;
+			margin-bottom: 0rem;
+
+			@media screen and ( max-width: 768px ) {
+				margin-bottom: 5rem;
+			}
 
 			padding-top: 2rem;
 			padding-bottom: 2rem;
@@ -160,13 +164,13 @@ section {
 
 .section-three {
 	background: transparentize( darken( dodgerblue, 20% ), .5 );
-	@media screen and ( max-width: 500px ) {
-		padding-top: 15rem;
-	}
+	// @media screen and ( max-width: 500px ) {
+	// 	padding-top: 15rem;
+	// }
 
 	h3 {
 		margin-top: 0rem;
-		margin-bottom: 0rem;
+		margin-bottom: 2rem;
 
 		padding-top: 2rem;
 		padding-bottom: 2rem;
@@ -175,25 +179,19 @@ section {
 		text-align: center;
 	}
 	
+	
+
 	.our-speaker-content {
 		margin-top: 0rem;
-		
+
 		.our-speaker-btn {
 			margin-top: 3rem;
-			// border: 3px solid yellow;
-		}
-	}
-
-	.our-speaker-iphone-content {
-		margin-top: 5rem;
-
-		.our-speaker-btn {
-			margin-top: 5rem;
 			// border: 3px solid yellow;
 		}
 
 		figure {
 			position: relative;
+			// padding-left: 15rem;
 
 			&:hover {
 				color: white;
@@ -204,6 +202,11 @@ section {
 				top: 0;
 				left: 3rem;
 				
+				@media screen and ( max-width: 500px ) {
+					h4 {
+						font-size: 1rem;
+					}
+				}
 
 			}
 			img {
@@ -220,7 +223,7 @@ section {
 }
 
 .section-four {
-	background: transparentize( green, .5 );
+	background: transparentize( darken( green, 10% ), .5 );
 
 	h3 {
 		margin-top: 3rem;
@@ -268,24 +271,24 @@ section {
 	}
 
 	.contact-social-icons {
-		background: transparentize( $core-color, .5 );
+		// background: transparentize( $core-color, .5 );
 
-		margin-top: 5rem;
-		padding-top: 2rem;
-		padding-bottom: 10rem;
+		margin-top: 1rem;
+		padding-top: 1rem;
+		padding-bottom: 5rem;
 		// border: 1px solid yellow;
 
 		aside {
-			padding-top: 2rem;
-			font-size: 5rem;
+			padding-top: 0rem;
+			font-size: 2.5rem;
 			padding-left: 8rem;
 
 			a {
 				@include transition(all 1.0s ease-in-out);
-				color: lighten( seagreen, 5%);
+				color: lighten( seagreen, 10%);
 
 				&:hover {
-					color: lighten( seagreen, 30% );
+					color: lighten( seagreen, 50% );
 
 					@include transform(translateY(50px));
 					@include transform(scale(1.2) rotate(-3deg));

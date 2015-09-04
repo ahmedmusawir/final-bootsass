@@ -12174,7 +12174,7 @@ body {
 }
 /* line 41, scss/_custom.scss */
 .hero-unit .hero-content h3 {
-  font-size: 5.5rem;
+  font-size: 4rem;
 }
 /* line 44, scss/_custom.scss */
 .hero-unit .hero-content h4 {
@@ -12256,13 +12256,19 @@ section {
 /* line 113, scss/_custom.scss */
 .section-two h3 {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 4rem;
   text-align: center;
 }
-/* line 129, scss/_custom.scss */
+@media screen and (max-width: 768px) {
+  /* line 113, scss/_custom.scss */
+  .section-two h3 {
+    margin-bottom: 5rem;
+  }
+}
+/* line 133, scss/_custom.scss */
 .section-two .video-container video#second-section-video {
   position: absolute;
   top: 0;
@@ -12276,84 +12282,76 @@ section {
   background: url("img/second-section.jpg") no-repeat;
   background-size: cover;
 }
-/* line 143, scss/_custom.scss */
+/* line 147, scss/_custom.scss */
 .section-two .video-container .text-content {
   background-color: rgba(139, 0, 0, 0.7);
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
-/* line 151, scss/_custom.scss */
+/* line 155, scss/_custom.scss */
 .section-two .video-container .text-content h4 {
   padding-bottom: 2rem;
 }
 
-/* line 161, scss/_custom.scss */
+/* line 165, scss/_custom.scss */
 .section-three {
   background: rgba(0, 93, 183, 0.5);
 }
-@media screen and (max-width: 500px) {
-  /* line 161, scss/_custom.scss */
-  .section-three {
-    padding-top: 15rem;
-  }
-}
-/* line 167, scss/_custom.scss */
+/* line 171, scss/_custom.scss */
 .section-three h3 {
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 4rem;
   text-align: center;
 }
-/* line 178, scss/_custom.scss */
+/* line 184, scss/_custom.scss */
 .section-three .our-speaker-content {
   margin-top: 0rem;
 }
-/* line 181, scss/_custom.scss */
+/* line 187, scss/_custom.scss */
 .section-three .our-speaker-content .our-speaker-btn {
   margin-top: 3rem;
 }
-/* line 187, scss/_custom.scss */
-.section-three .our-speaker-iphone-content {
-  margin-top: 5rem;
-}
-/* line 190, scss/_custom.scss */
-.section-three .our-speaker-iphone-content .our-speaker-btn {
-  margin-top: 5rem;
-}
-/* line 195, scss/_custom.scss */
-.section-three .our-speaker-iphone-content figure {
+/* line 192, scss/_custom.scss */
+.section-three .our-speaker-content figure {
   position: relative;
 }
-/* line 198, scss/_custom.scss */
-.section-three .our-speaker-iphone-content figure:hover {
+/* line 196, scss/_custom.scss */
+.section-three .our-speaker-content figure:hover {
   color: white;
 }
-/* line 202, scss/_custom.scss */
-.section-three .our-speaker-iphone-content figure figcaption {
+/* line 200, scss/_custom.scss */
+.section-three .our-speaker-content figure figcaption {
   position: absolute;
   top: 0;
   left: 3rem;
 }
-/* line 209, scss/_custom.scss */
-.section-three .our-speaker-iphone-content figure img {
+@media screen and (max-width: 500px) {
+  /* line 206, scss/_custom.scss */
+  .section-three .our-speaker-content figure figcaption h4 {
+    font-size: 1rem;
+  }
+}
+/* line 212, scss/_custom.scss */
+.section-three .our-speaker-content figure img {
   opacity: .5;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 214, scss/_custom.scss */
-.section-three .our-speaker-iphone-content figure img:hover {
+/* line 217, scss/_custom.scss */
+.section-three .our-speaker-content figure img:hover {
   opacity: 1;
 }
 
-/* line 222, scss/_custom.scss */
-.section-four {
-  background: rgba(0, 128, 0, 0.5);
-}
 /* line 225, scss/_custom.scss */
+.section-four {
+  background: rgba(0, 77, 0, 0.5);
+}
+/* line 228, scss/_custom.scss */
 .section-four h3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -12362,75 +12360,74 @@ section {
   font-size: 4rem;
   text-align: center;
 }
-/* line 239, scss/_custom.scss */
+/* line 242, scss/_custom.scss */
 .section-four .contact-content legend {
   color: #bebebe;
 }
 @media screen and (min-width: 320px) {
-  /* line 236, scss/_custom.scss */
+  /* line 239, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 236, scss/_custom.scss */
+  /* line 239, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 @media screen and (min-width: 1100px) {
-  /* line 236, scss/_custom.scss */
+  /* line 239, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 20rem;
     padding-right: 20rem;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 236, scss/_custom.scss */
+  /* line 239, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 30rem;
     padding-right: 30rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  /* line 236, scss/_custom.scss */
+  /* line 239, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 40rem;
     padding-right: 40rem;
   }
 }
 @media screen and (min-width: 1800px) {
-  /* line 236, scss/_custom.scss */
+  /* line 239, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 50rem;
     padding-right: 50rem;
   }
 }
-/* line 270, scss/_custom.scss */
+/* line 273, scss/_custom.scss */
 .section-four .contact-social-icons {
-  background: rgba(62, 62, 62, 0.5);
-  margin-top: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 10rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
-/* line 278, scss/_custom.scss */
+/* line 281, scss/_custom.scss */
 .section-four .contact-social-icons aside {
-  padding-top: 2rem;
-  font-size: 5rem;
+  padding-top: 0rem;
+  font-size: 2.5rem;
   padding-left: 8rem;
 }
-/* line 283, scss/_custom.scss */
+/* line 286, scss/_custom.scss */
 .section-four .contact-social-icons aside a {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  color: #349e63;
+  color: #3bb16f;
 }
-/* line 287, scss/_custom.scss */
+/* line 290, scss/_custom.scss */
 .section-four .contact-social-icons aside a:hover {
-  color: #7ed4a4;
+  color: #caeeda;
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
   -ms-transform: translateY(50px);

@@ -59,7 +59,7 @@
       
 
         </div> <!-- end row -->
-        <div class="row hidden-xs">
+        <!-- <div class="row">
         
           <article class="col-sm-2 col-md-2">
               <p>
@@ -79,7 +79,7 @@
             </p>
           </article>
 
-        </div> 
+        </div>  -->
         <!-- end row -->
     
         <div class="text-center about-us-btn"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
@@ -119,21 +119,25 @@
       </p>
     </div>
 
-    <div class="text-content text-center hidden-xs">
+   <!--  <div class="text-content text-center">
 
-      <h4>NOTHING</h4>
+      <h4>CLOSE</h4>
       <p>
-        Nothing <br>
-        is everything <br>
-        Nothing works! <br>
-        Yes, only nothing,  <br>
-        Works all the time <br>
-        Noting lasts! <br>
-        Yes, only nothing, <br>
-        Lasts forever. <br>
+        Close enough to offer a flower <br>
+        Close enough to spread the disease <br>
+        Close enough to congratulate <br>
+        Close enough to deceive <br>
+        Close enough to shake the hand <br>
+        Close enough to break it <br>
+        Close enough to build the bridge <br>
+        Close enough to burn it <br>
+        Stop! <br>
+        Breath <br>
+        Be <br>
+        Be away ... <br>
       </p>
     </div>
-
+ -->
   </figure>
 
   <div class="text-center"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
@@ -145,12 +149,57 @@
   
   <h3>Our Speakers</h3>
 
-  <article class="our-speaker-content container">
+  <article class="our-speaker-content grid">
 
+     <!--  <figure class="our-speaker-img effect-oscar">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/2" alt="">  
+        <figcaption>
+          <h2>Nice <span>Lily</span></h2>
+          <a class="btn btn-sm btn-primary" href="#">View more</a>
+
+          <p>Lily likes to play with crayons and pencils</p>
+        </figcaption>   
+      </figure>
+
+     <figure class="our-speaker-img effect-oscar">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/3" alt="">  
+        <figcaption>
+          <h2>Nice <span>Lily</span></h2>
+          <a href="#">View more</a>
+
+          <p>Lily likes to play with crayons and pencils</p>
+        </figcaption>   
+      </figure> -->
+
+      <!-- <figure class="our-speaker-img effect-chico">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/4" alt="">  
+        <figcaption>
+          <h2>Nice <span>Lily</span></h2>
+          <a href="#">View more</a>
+
+          <p>Lily likes to play with crayons and pencils</p>
+        </figcaption>   
+      </figure>
+
+      <figure class="our-speaker-img effect-chico">
+          <img class="img-responsive" src="http://lorempixel.com/460/460/nature/5" alt="">  
+        <figcaption>
+          <h2>Nice <span>Lily</span></h2>
+          <a href="#">View more</a>
+
+          <p>Lily likes to play with crayons and pencils</p>
+        </figcaption>   
+      </figure> -->
+      
+  <!-- <div class="text-center"><a href="#" class="btn btn-danger btn-large our-speaker-btn" title="">Discover More <i class="fa fa-chevron-right"></i></a></div> -->
+
+  </article> <!-- end our-speaker-content  -->
+
+  <article class="our-speaker-iphone-content ">
     <a href="#">
-      <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
+      <figure class="our-speaker-img col-xs-6 col-md-6 col-sm-6">
           <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
+            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/300/300/abstract/2" alt="">  
           </p>
             <figcaption>
             <h4>Nice <span>Lily</span></h4>
@@ -160,9 +209,9 @@
         </figure>
       </a>
       <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
+        <figure class="our-speaker-img col-xs-6 col-md-6 col-sm-6">
           <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
+            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/300/300/abstract/2" alt="">  
           </p>
             <figcaption>
             <h4>Nice <span>Lily</span></h4>
@@ -171,54 +220,7 @@
           </figcaption>   
         </figure>
       </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
+     
 
   <div class="text-center"><a href="#" class="btn btn-danger btn-large our-speaker-btn" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
 
@@ -265,7 +267,9 @@
 
       <!-- <div class="container"> -->
 
-        <article class="contact-social-icons">
+        <!-- <article class="contact-social-icons">
+
+          <h4 class="text-center">Lets Socialize ...</h4>
 
           <aside class="col-md-3 col-sm-3 col-xs-6">
             <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -280,7 +284,7 @@
             <a href="#" title=""><i class="fa fa-instagram"></i></a>
           </aside>
 
-        </article>
+        </article> -->
       
 
         <!-- </div>  -->
