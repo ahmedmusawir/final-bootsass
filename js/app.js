@@ -4,4 +4,6 @@ jQuery(document).ready(function($) {
 
 	// $('#wrapper').fullpage();
 
+	// $('.intro-poem').slideDown('5000');
+
 });

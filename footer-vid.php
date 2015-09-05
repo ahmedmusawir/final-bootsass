@@ -40,7 +40,7 @@
 			var options = { videoId: '<?php echo $youtube; ?>', start: 30 };
 			// var options = { videoId: 'ab0TSkLe-E0', start: 3 };
 			// $('#myVideo').tubular(options);
-			// $('#wrapper').tubular(options);
+			$('#wrapper').tubular(options);
 			// f-UGhWj1xww cool sepia hd
 			// 49SKbS7Xwf4 beautiful barn sepia
 		});

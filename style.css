@@ -12168,6 +12168,157 @@ body {
   -webkit-animation-name: fadeInRight;
   -moz-animation-name: fadeInRight;
   animation-name: fadeInRight;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 43, scss/_custom.scss */
+.active .intro-poem {
+  margin-top: 5rem;
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 53, scss/_custom.scss */
+.active .featured-poem-1 {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 60, scss/_custom.scss */
+.active .featured-poem-2 {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 68, scss/_custom.scss */
+.active .input-name {
+  -webkit-animation-name: fadeInRight;
+  -moz-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 76, scss/_custom.scss */
+.active .input-subject {
+  -webkit-animation-name: fadeInLeft;
+  -moz-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 83, scss/_custom.scss */
+.active .input-email {
+  -webkit-animation-name: fadeInRight;
+  -moz-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 90, scss/_custom.scss */
+.active .input-comments {
+  -webkit-animation-name: fadeInLeft;
+  -moz-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 97, scss/_custom.scss */
+.active .input-submit {
+  -webkit-animation-name: fadeInRight;
+  -moz-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 105, scss/_custom.scss */
+.active .contact-social-icons {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: forwards;
+  -moz-animation-direction: forwards;
+  animation-direction: forwards;
+}
+/* line 113, scss/_custom.scss */
+.active .our-speaker-content {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  animation-name: fadeInUp;
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
   animation-duration: 3s;
@@ -12179,22 +12330,22 @@ body {
   animation-direction: forwards;
 }
 
-/* line 44, scss/_custom.scss */
+/* line 123, scss/_custom.scss */
 .onepage-pagination {
   z-index: 1000;
 }
 
-/* line 48, scss/_custom.scss */
+/* line 127, scss/_custom.scss */
 .onepage-pagination li a.active:before {
   border: 2px solid lightgrey;
 }
 
-/* line 52, scss/_custom.scss */
+/* line 131, scss/_custom.scss */
 .onepage-pagination li a:before {
   background: lightgrey;
 }
 
-/* line 59, scss/_custom.scss */
+/* line 138, scss/_custom.scss */
 .hero-unit .hero-content {
   margin: 4rem auto 0;
   padding: 5rem;
@@ -12202,54 +12353,54 @@ body {
   background-color: rgba(62, 62, 62, 0.8);
   text-align: center;
 }
-/* line 66, scss/_custom.scss */
+/* line 145, scss/_custom.scss */
 .hero-unit .hero-content .intro-poem {
   margin-top: 5rem;
 }
-/* line 70, scss/_custom.scss */
+/* line 150, scss/_custom.scss */
 .hero-unit .hero-content .intro-poem-icon {
   font-size: 5rem;
   display: block;
 }
-/* line 76, scss/_custom.scss */
+/* line 156, scss/_custom.scss */
 .hero-unit .hero-content .intro-arrow-icon {
   font-size: 5rem;
 }
-/* line 80, scss/_custom.scss */
+/* line 160, scss/_custom.scss */
 .hero-unit .hero-content h1 {
   font-size: 8rem;
 }
-/* line 83, scss/_custom.scss */
+/* line 163, scss/_custom.scss */
 .hero-unit .hero-content h3 {
   font-size: 4rem;
 }
-/* line 86, scss/_custom.scss */
+/* line 166, scss/_custom.scss */
 .hero-unit .hero-content h4 {
   margin-top: 2rem;
   font-size: 2rem;
 }
 
-/* line 95, scss/_custom.scss */
+/* line 175, scss/_custom.scss */
 section {
   padding: 3rem;
 }
 
-/* line 99, scss/_custom.scss */
+/* line 179, scss/_custom.scss */
 .section-one {
   background: rgba(153, 0, 0, 0.5);
 }
-/* line 102, scss/_custom.scss */
+/* line 182, scss/_custom.scss */
 .section-one h3 {
   margin-top: 3rem;
   margin-bottom: 0rem;
   font-size: 5rem;
   text-align: center;
 }
-/* line 109, scss/_custom.scss */
+/* line 189, scss/_custom.scss */
 .section-one .section-one-content {
   padding-top: 2rem;
 }
-/* line 112, scss/_custom.scss */
+/* line 192, scss/_custom.scss */
 .section-one .section-one-content .row {
   margin-bottom: 4rem;
   margin-top: 4rem;
@@ -12259,14 +12410,14 @@ section {
   padding-left: 2rem;
   z-index: 1001;
 }
-/* line 123, scss/_custom.scss */
+/* line 203, scss/_custom.scss */
 .section-one .section-one-content .icon-about-us {
   font-size: 8rem;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
-/* line 127, scss/_custom.scss */
+/* line 207, scss/_custom.scss */
 .section-one .section-one-content .icon-about-us:hover {
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
@@ -12290,7 +12441,7 @@ section {
   transform-style: preserve-3d;
 }
 
-/* line 141, scss/_custom.scss */
+/* line 221, scss/_custom.scss */
 .section-two {
   background: rgba(255, 255, 0, 0.5);
   padding-top: 0rem;
@@ -12301,7 +12452,7 @@ section {
   position: relative;
   z-index: -9;
 }
-/* line 157, scss/_custom.scss */
+/* line 237, scss/_custom.scss */
 .section-two h3 {
   margin-top: 3rem;
   margin-bottom: 0rem;
@@ -12311,12 +12462,12 @@ section {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 157, scss/_custom.scss */
+  /* line 237, scss/_custom.scss */
   .section-two h3 {
     margin-bottom: 5rem;
   }
 }
-/* line 177, scss/_custom.scss */
+/* line 257, scss/_custom.scss */
 .section-two .video-container video#second-section-video {
   position: absolute;
   top: 0;
@@ -12329,7 +12480,7 @@ section {
   z-index: -8;
   background-size: cover;
 }
-/* line 191, scss/_custom.scss */
+/* line 271, scss/_custom.scss */
 .section-two .video-container .text-content {
   background-color: rgba(139, 0, 0, 0.7);
   padding-top: 2rem;
@@ -12338,75 +12489,75 @@ section {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-/* line 201, scss/_custom.scss */
+/* line 281, scss/_custom.scss */
 .section-two .video-container .text-content h4 {
   padding-bottom: 2rem;
 }
 
-/* line 211, scss/_custom.scss */
+/* line 291, scss/_custom.scss */
 .section-three {
   background: rgba(0, 93, 183, 0.5);
 }
 @media screen and (max-width: 640px) {
-  /* line 211, scss/_custom.scss */
+  /* line 291, scss/_custom.scss */
   .section-three {
     padding-top: 15rem;
   }
 }
-/* line 217, scss/_custom.scss */
+/* line 297, scss/_custom.scss */
 .section-three h3 {
-  margin-top: 0rem;
-  margin-bottom: 2rem;
+  margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 4rem;
   text-align: center;
 }
-/* line 230, scss/_custom.scss */
+/* line 308, scss/_custom.scss */
+.section-three .our-speaker-btn {
+  margin-top: 6rem;
+  padding-top: 2rem;
+}
+/* line 316, scss/_custom.scss */
 .section-three .our-speaker-content {
-  margin-top: 0rem;
+  padding-top: 2rem;
 }
-/* line 233, scss/_custom.scss */
-.section-three .our-speaker-content .our-speaker-btn {
-  margin-top: 3rem;
-}
-/* line 238, scss/_custom.scss */
+/* line 320, scss/_custom.scss */
 .section-three .our-speaker-content figure {
   position: relative;
 }
-/* line 242, scss/_custom.scss */
+/* line 324, scss/_custom.scss */
 .section-three .our-speaker-content figure:hover {
   color: white;
 }
-/* line 246, scss/_custom.scss */
+/* line 328, scss/_custom.scss */
 .section-three .our-speaker-content figure figcaption {
   position: absolute;
   top: 0;
   left: 3rem;
 }
 @media screen and (max-width: 500px) {
-  /* line 252, scss/_custom.scss */
+  /* line 334, scss/_custom.scss */
   .section-three .our-speaker-content figure figcaption h4 {
     font-size: 1rem;
   }
 }
-/* line 258, scss/_custom.scss */
+/* line 340, scss/_custom.scss */
 .section-three .our-speaker-content figure img {
   opacity: .5;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 263, scss/_custom.scss */
+/* line 345, scss/_custom.scss */
 .section-three .our-speaker-content figure img:hover {
   opacity: 1;
 }
 
-/* line 271, scss/_custom.scss */
+/* line 353, scss/_custom.scss */
 .section-four {
   background: rgba(0, 77, 0, 0.5);
 }
-/* line 274, scss/_custom.scss */
+/* line 356, scss/_custom.scss */
 .section-four h3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -12415,90 +12566,90 @@ section {
   font-size: 4rem;
   text-align: center;
 }
-/* line 288, scss/_custom.scss */
+/* line 370, scss/_custom.scss */
 .section-four .contact-content legend {
   color: #bebebe;
 }
 @media screen and (min-width: 320px) {
-  /* line 285, scss/_custom.scss */
+  /* line 367, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 285, scss/_custom.scss */
+  /* line 367, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 @media screen and (min-width: 1100px) {
-  /* line 285, scss/_custom.scss */
+  /* line 367, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 20rem;
     padding-right: 20rem;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 285, scss/_custom.scss */
+  /* line 367, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 30rem;
     padding-right: 30rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  /* line 285, scss/_custom.scss */
+  /* line 367, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 40rem;
     padding-right: 40rem;
   }
 }
 @media screen and (min-width: 1800px) {
-  /* line 285, scss/_custom.scss */
+  /* line 367, scss/_custom.scss */
   .section-four .contact-content {
     padding-left: 50rem;
     padding-right: 50rem;
   }
 }
-/* line 319, scss/_custom.scss */
+/* line 401, scss/_custom.scss */
 .section-four .contact-social-icons {
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 5rem;
 }
-/* line 327, scss/_custom.scss */
+/* line 409, scss/_custom.scss */
 .section-four .contact-social-icons aside {
   padding-top: 0rem;
   font-size: 2.5rem;
   padding-left: 9rem;
 }
 @media screen and (max-width: 900px) {
-  /* line 327, scss/_custom.scss */
+  /* line 409, scss/_custom.scss */
   .section-four .contact-social-icons aside {
     padding-left: 6rem;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 327, scss/_custom.scss */
+  /* line 409, scss/_custom.scss */
   .section-four .contact-social-icons aside {
     padding-left: 4rem;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 327, scss/_custom.scss */
+  /* line 409, scss/_custom.scss */
   .section-four .contact-social-icons aside {
     padding-left: 3rem;
   }
 }
-/* line 343, scss/_custom.scss */
+/* line 425, scss/_custom.scss */
 .section-four .contact-social-icons aside a {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   color: #3bb16f;
 }
-/* line 347, scss/_custom.scss */
+/* line 429, scss/_custom.scss */
 .section-four .contact-social-icons aside a:hover {
   color: #caeeda;
   -webkit-transform: translateY(50px);

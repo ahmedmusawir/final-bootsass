@@ -1,6 +1,6 @@
 <?php include "header-vid.php"; ?>
 
-<section class="hero-unit clearfix section">
+<section class="hero-unit clearfix">
 
    <div class="hero-content">
      
@@ -33,7 +33,7 @@
         
 </section>
 
-<section id="section-one" class="section-one container-fluid section">
+<section id="section-one" class="section-one container-fluid">
   
   <h3>About Us</h3>  
   
@@ -41,13 +41,13 @@
 
       <div class="row top-block" >
 
-        <article class="col-xs-3 col-sm-2 col-md-2 col-md-push-10 col-sm-push-10">
+        <article class="col-xs-12 col-sm-2 col-md-2 col-md-push-10 col-sm-push-10">
             <p>
               <span class="icon-about-us"><i class="fa fa-xing"></i></span>
             </p>
         </article>
       
-        <article class="text col-xs-9 col-sm-10 col-md-10 col-md-pull-2 col-sm-pull-2">
+        <article class="text col-xs-12 col-sm-10 col-md-10 col-md-pull-2 col-sm-pull-2">
         <h4>Reason</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -101,7 +101,7 @@
     <h3>Featured Poems</h3>
 
 
-    <div class="text-content text-center">
+    <div class="text-content text-center featured-poem-1">
 
       <h4>ROUND</h4>
       <p>
@@ -119,7 +119,7 @@
       </p>
     </div>
 
-    <div class="text-content text-center hidden-xs">
+    <div class="text-content text-center hidden-xs featured-poem-2">
 
       <h4>NOTHING</h4>
       <p>
@@ -147,83 +147,47 @@
 
   <article class="our-speaker-content container">
 
-    <a href="#">
-      <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
 
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="http://lorempixel.com/1150/450/abstract/1" alt="...">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/1150/450/abstract/2" alt="...">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+          
+        </div>
 
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-      <a href="#">
-        <figure class="our-speaker-img col-xs-4 col-md-4 col-sm-4">
-          <p>
-            <img class="img-responsive img-thumbnail" src="http://lorempixel.com/250/250/abstract/2" alt="">  
-          </p>
-            <figcaption>
-            <h4>Nice <span>Lily</span></h4>
-
-            <!-- <p>Lily likes to play with crayons and pencils</p> -->
-          </figcaption>   
-        </figure>
-      </a>
-
-  <div class="text-center"><a href="#" class="btn btn-danger btn-large our-speaker-btn" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
 
   </article> <!-- end our-speaker-iphone-content  -->
+      
+
+  <div class="text-center our-speaker-btn"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
       
   
 </section>
@@ -237,19 +201,19 @@
     <form action="" method="POST" role="form">
       <!-- <legend>Contact Us</legend> -->
     
-      <div class="form-group">
+      <div class="form-group input-name">
         <label for="">Name</label>
         <input type="text" class="form-control" id="" placeholder="Your Name">
       </div>
-      <div class="form-group">
+      <div class="form-group input-subject">
         <label for="">Subject</label>
         <input type="text" class="form-control" id="" placeholder="Subject">
       </div>
-      <div class="form-group">
+      <div class="form-group input-email">
         <label for="">Email</label>
         <input type="text" class="form-control" id="" placeholder="Your Email">
       </div>
-      <div class="form-group">
+      <div class="form-group input-comments">
         <label for="">Comments</label>
         <textarea  type="text" class="form-control" id="" cols="" rows="10" placeholder="Your Comments">
 
@@ -258,7 +222,7 @@
     
       
     
-      <button type="submit" class="btn btn-success btn-block">Submit</button>
+      <button type="submit" class="btn btn-success btn-block input-submit">Submit</button>
 
 
       <!-- <div class="container"> -->
