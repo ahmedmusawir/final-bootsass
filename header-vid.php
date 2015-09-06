@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
     
-    <link href="style.css" rel="stylesheet">
+    <link href="style-frontpage.css" rel="stylesheet">
     
     <!-- <link href="css/bootstrap.offcanvas.min.css" rel="stylesheet"> -->
 

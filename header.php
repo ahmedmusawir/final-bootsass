@@ -16,6 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/navmenu-reveal.css" rel="stylesheet">
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,7 +30,7 @@
   </head>
 
   <body>
-    <div class="navmenu navmenu-default navmenu-fixed-left">
+    <div class="navmenu navmenu-default navmenu-fixed-left navmenu-inverse">
       <a class="navmenu-brand" href="#">Project name</a>
       <ul class="nav navmenu-nav">
         <li><a href="../navmenu/">Slide in</a></li>
@@ -56,7 +58,7 @@
     </div>
 
       <div class="canvas">
-        <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar navbar-default navbar-fixed-top ">
           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>

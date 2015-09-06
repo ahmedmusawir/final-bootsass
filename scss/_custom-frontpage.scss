@@ -1,0 +1,459 @@
+@import "bourbon/bourbon";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+$core-color: #3e3e3e;
+
+body {
+	background-color: $core-color;
+	color: lighten( $core-color, 50% );
+	// font-family: 'Raleway', sans-serif;
+	font-family: 'Architects Daughter', cursive;
+
+}
+
+@keyframes slideMine {
+	0% {
+		margin-left: -100%;
+	}
+	100% {
+		margin-left: 0;
+	}
+}
+
+.active {
+	h1 {
+		animation: slideMine 2s forwards;
+  	// border: 1px solid yellow;
+
+	}
+  .top-block {
+		animation: slideMine 2s forwards;
+  	
+  }
+	.bottom-block {
+	  	@include animation-name( fadeInRight );
+		@include animation-duration(2s);
+		@include animation-timing-function(ease);
+		// @include animation-delay(2s);
+		@include animation-direction(forwards);
+		  
+	  }
+
+	.intro-poem {
+		margin-top: 5rem;
+		// display: none;
+	  @include animation-name( fadeInDown );
+	  @include animation-duration(2s);
+	  @include animation-timing-function(ease);
+	  // @include animation-delay(2s);
+	  @include animation-direction(forwards);
+	}
+
+	.featured-poem-1 {
+	  @include animation-name( fadeInDown );
+	  @include animation-duration(2s);
+	  @include animation-timing-function(ease);
+	  // @include animation-delay(2s);
+	  @include animation-direction(forwards);
+   }
+   	.featured-poem-2 {
+	  @include animation-name( fadeInUp );
+	  @include animation-duration(3s);
+	  @include animation-timing-function(ease);
+	  // @include animation-delay(2s);
+	  @include animation-direction(forwards);
+   }
+
+   .input-name {
+   	@include animation-name( fadeInRight );
+		@include animation-duration(3s);
+		@include animation-timing-function(ease);
+		// @include animation-delay(2s);
+		@include animation-direction(forwards);
+
+   }
+   .input-subject {
+		@include animation-name( fadeInLeft );
+		@include animation-duration(3s);
+		@include animation-timing-function(ease);
+		// @include animation-delay(2s);
+		@include animation-direction(forwards);
+   }
+   .input-email {
+		@include animation-name( fadeInRight );
+		@include animation-duration(3s);
+		@include animation-timing-function(ease);
+		// @include animation-delay(2s);
+		@include animation-direction(forwards);
+   }
+   .input-comments {
+		@include animation-name( fadeInLeft );
+		@include animation-duration(3s);
+		@include animation-timing-function(ease);
+		// @include animation-delay(2s);
+		@include animation-direction(forwards);
+   }
+   .input-submit {
+   	@include animation-name( fadeInRight );
+		@include animation-duration(3s);
+		@include animation-timing-function(ease);
+		// @include animation-delay(2s);
+		@include animation-direction(forwards);
+
+   }
+   .contact-social-icons {
+   	  @include animation-name( fadeInUp );
+	  @include animation-duration(3s);
+	  @include animation-timing-function(ease);
+	  // @include animation-delay(2s);
+	  @include animation-direction(forwards);
+   }
+
+   .our-speaker-content {
+   	  @include animation-name( fadeInUp );
+	  @include animation-duration(3s);
+	  @include animation-timing-function(ease);
+	  // @include animation-delay(2s);
+	  @include animation-direction(forwards);
+   }
+
+ }
+
+.onepage-pagination {
+	z-index: 1000;
+}
+
+.onepage-pagination li a.active:before {
+    border: 2px solid lightgrey;
+}
+
+.onepage-pagination li a:before {
+    background: lightgrey;
+}
+
+.hero-unit {
+	// background: url(img/bg.jpg);
+
+	.hero-content {
+		margin: 4rem auto 0;
+		padding: 5rem;
+		width: 90%;
+		background-color: transparentize( $core-color, .2 );
+		text-align: center;
+
+		.intro-poem {
+			margin-top: 5rem;
+			// display: none;
+		}
+
+		.intro-poem-icon {
+			font-size: 5rem;
+			display: block;
+			// padding-left: 4rem;
+		}
+
+		.intro-arrow-icon {
+			font-size: 5rem;
+		}
+		
+		h1 {
+			font-size: 8rem;
+		}
+		h3 {
+			font-size: 4rem;
+		}
+		h4 {
+			margin-top: 2rem;
+			font-size: 2rem;
+		}
+
+
+	}
+}
+
+section {
+	padding: 3rem;
+}
+
+.section-one {
+	background: transparentize( darken( red, 20% ), .5 );
+
+	h3 {
+			margin-top: 3rem;
+			margin-bottom: 0rem;
+			font-size: 5rem;
+			text-align: center;
+		}
+
+	.section-one-content {
+		padding-top: 2rem;
+
+		.row {
+			margin-bottom: 4rem;
+			margin-top: 4rem;
+			background-color: transparentize( $core-color, .2 );
+			padding-top: 4rem;
+			padding-bottom: 3rem;
+			padding-left: 2rem;
+
+			z-index: 1001;
+		}
+
+		.icon-about-us {
+			font-size: 8rem;
+			@include transition(all 2.0s ease-in-out);
+
+			&:hover {
+				@include transform(translateY(50px));
+					@include transform(scale(0.9) rotate(-3deg));
+					@include transform-origin(center top);
+					@include transform-style(preserve-3d);
+			}
+		}
+
+		.about-us-btn {
+			// margin-top: 10rem;
+		}
+	}
+}
+
+.section-two {
+	// border: 1px solid red;
+	// background: url("img/second-section.jpg");
+	// background-size: cover;
+	// background-attachment: fixed;
+	// overflow: hidden;
+	background: transparentize( yellow, .5 );
+
+		padding-top: 0rem;
+		margin-top: 0rem;
+		padding-bottom: 0rem;
+		position: relative;
+		overflow: hidden;
+		position: relative;
+		z-index: -9;
+
+		h3 {
+			margin-top: 3rem;
+			margin-bottom: 0rem;
+
+			@media screen and ( max-width: 768px ) {
+				margin-bottom: 5rem;
+			}
+
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+
+			font-size: 4rem;
+			text-align: center;
+		}
+
+	.video-container {
+
+		// position: relative;
+
+
+		video#second-section-video {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -8;
+			// background: url("img/second-section.jpg") no-repeat;
+			background-size: cover;
+		}
+
+		.text-content {
+			
+			background-color: transparentize( darkred, .3 );
+
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			margin-bottom: 2rem;
+			margin-left: 2rem;
+			margin-right: 2rem;
+
+			h4 {
+				padding-bottom: 2rem;
+			}
+		}
+
+	}
+
+}
+ 
+
+.section-three {
+	background: transparentize( darken( dodgerblue, 20% ), .5 );
+	@media screen and ( max-width: 640px ) {
+		padding-top: 15rem;
+	}
+
+	h3 {
+		margin-top: 5rem;
+		// margin-bottom: 2rem;
+
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	.our-speaker-btn {
+			margin-top: 6rem;
+			padding-top: 2rem;
+			// border: 3px solid yellow;
+		}
+	
+	
+
+	.our-speaker-content {
+		// margin-top: 5rem;
+		padding-top: 2rem;
+
+		figure {
+			position: relative;
+			// padding-left: 15rem;
+
+			&:hover {
+				color: white;
+			}
+
+			figcaption {
+				position: absolute;
+				top: 0;
+				left: 3rem;
+				
+				@media screen and ( max-width: 500px ) {
+					h4 {
+						font-size: 1rem;
+					}
+				}
+
+			}
+			img {
+				opacity: .5;
+				@include transition(all 1.0s ease-in-out);
+
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.section-four {
+	background: transparentize( darken( green, 10% ), .5 );
+
+	h3 {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	.contact-content {
+		// border: 1px solid yellow;
+	 
+		legend {
+			color: lighten( $core-color, 50% );
+		}
+
+		@media screen and ( min-width: 320px ) {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		@media screen and ( min-width: 700px ) {
+			padding-left: 10rem;
+			padding-right: 10rem;
+		}
+		@media screen and ( min-width: 1100px ) {
+			padding-left: 20rem;
+			padding-right: 20rem;
+		}
+		@media screen and ( min-width: 1400px ) {
+			padding-left: 30rem;
+			padding-right: 30rem;
+		}
+		@media screen and ( min-width: 1600px ) {
+			padding-left: 40rem;
+			padding-right: 40rem;
+		}
+		@media screen and ( min-width: 1800px ) {
+			padding-left: 50rem;
+			padding-right: 50rem;
+		}
+
+	}
+
+	.contact-social-icons {
+		// background: transparentize( $core-color, .5 );
+
+		margin-top: 1rem;
+		padding-top: 1rem;
+		padding-bottom: 5rem;
+		// border: 1px solid yellow;
+
+		aside {
+			padding-top: 0rem;
+			font-size: 2.5rem;
+			padding-left: 9rem;
+			// margin-left: 6rem;
+
+			@media screen and ( max-width: 900px ) {
+				padding-left: 6rem;
+			}
+			@media screen and ( max-width: 550px ) {
+				padding-left: 4rem;
+			}
+			@media screen and ( max-width: 400px ) {
+				padding-left: 3rem;
+			}
+
+			a {
+				@include transition(all 1.0s ease-in-out);
+				color: lighten( seagreen, 10%);
+
+				&:hover {
+					color: lighten( seagreen, 50% );
+
+					@include transform(translateY(50px));
+					@include transform(scale(1.2) rotate(-3deg));
+					@include transform-origin(center top);
+					@include transform-style(preserve-3d);
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

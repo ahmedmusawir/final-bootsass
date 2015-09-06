@@ -33,8 +33,8 @@
     	<?php //$youtube =  'h9NnctZVrvk'; ?> //Perfect - insect creepy
     	<?php //$youtube =  '_QqfifH3-rk'; ?> //Perfect - but text flash at the end
     	<?php //$youtube =  'ryqdoe6xLs4'; ?> //Nice and Bright
-    	<?php //$youtube =  'NZABo8G94cI'; ?> //Black bar at top and bottom
-    	<?php $youtube =  'yIbf5IUsaSA'; ?> //Perfect
+    	<?php $youtube =  'NZABo8G94cI'; ?> //Black bar at top and bottom
+    	<?php //$youtube =  'yIbf5IUsaSA'; ?> //Perfect
 
     	jQuery('document').ready(function() {
 			var options = { videoId: '<?php echo $youtube; ?>', start: 30 };
