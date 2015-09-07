@@ -31,27 +31,22 @@
 
   <body>
     <div class="navmenu navmenu-default navmenu-fixed-left navmenu-inverse">
-      <a class="navmenu-brand" href="#">Project name</a>
+      <a class="navmenu-brand" href="index.php">Felix Ingenium</a>
       <ul class="nav navmenu-nav">
-        <li><a href="../navmenu/">Slide in</a></li>
-        <li><a href="../navmenu-push/">Push</a></li>
-        <li class="active"><a href="./">Reveal</a></li>
-        <li><a href="../navbar-offcanvas/">Off canvas navbar</a></li>
+        <li><a href="about.php">About Us</a></li>
+        <li><a href="speakers.php">Our Speakers</a></li>
+        <li class="active"><a href="blog.php">The Stack</a></li>
       </ul>
       <ul class="nav navmenu-nav">
-        <li><a href="video-page-1.php">Video Page 1</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
           <ul class="dropdown-menu navmenu-nav">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="single-post.php">Single Post</a></li>
+            <li><a href="single-page.php">Single Page</a></li>
+            <li><a href="fullwidth-page.php">Full Width Page</a></li>
             <li class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
+            <li class="dropdown-header">Speakers</li>
+            <li><a href="single-speaker-page.php">Single Speaker Page</a></li>
           </ul>
         </li>
       </ul>

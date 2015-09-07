@@ -2,6 +2,7 @@ $core-color: #3e3e3e;
 
 body {
 	position: relative;
+	// color: red;
 }
 
 #wrapper {
@@ -11,8 +12,9 @@ body {
 }
 
 .navbar-default {
-	background-color: lighten( $core-color, 20% );
-	border-color: $core-color;
+	background-color: transparent;
+	// background-color: lighten( $core-color, 20% );
+	border-color: transparent;
 	// border: 2px solid red;
 
 }
@@ -110,7 +112,7 @@ body {
 			padding-left: 0px;
 
 			img {
-				@include transition(all 1.0s ease-in-out);
+				@include transition(all .5s ease-in-out);
 				opacity: .6;
 
 				&:hover {
@@ -123,6 +125,8 @@ body {
 
 			color: lighten( $core-color, 50% );
 			padding-top: 2rem;
+			padding-left: 2rem;
+			padding-bottom: 2rem;
 		}
 
 	}
@@ -130,6 +134,249 @@ body {
 }
 
 /*=====  End of BLOG INDEX SECTION  ======*/
+
+/*==========================================
+=            SINGLE POST               =
+==========================================*/
+
+.single-blog-index-block {
+
+	margin-top: 6rem;
+
+	.single-blog-index-img {
+
+		padding-left: 0px;
+		padding-bottom: 3rem;
+
+		img {
+			opacity: .8;
+		}
+
+	}
+
+	.single-blog-item-block {
+		
+		// background-color: transparentize( $core-color, .2 );
+
+
+
+		.single-blog-index-text {
+
+			background-color: transparentize( $core-color, .2 );
+
+			color: lighten( $core-color, 50% );
+			padding-top: 2rem;
+			padding-left: 4rem;
+			padding-right: 2rem;
+			padding-bottom: 2rem;
+			margin-bottom: 2rem;
+
+			h3 {
+				font-size: 3rem;
+			}
+
+			.single-post-meta {
+
+				padding-top: 1.5rem;
+
+				a {
+					color: darken( dodgerblue, 0% );
+
+					&:hover, &:focus {
+						color: lighten( dodgerblue, 20% );
+
+					}
+				}
+			}
+		}
+
+	}
+
+}
+
+/*=====  End of  SINGLE POST  ======*/
+
+/*===================================
+=            SINGLE PAGE            =
+===================================*/
+
+.single-page-index-block {
+
+
+	margin-top: 6rem;
+
+	.single-page-index-img {
+
+		padding-left: 0px;
+		padding-bottom: 3rem;
+
+		img {
+			opacity: .8;
+		}
+
+	}
+
+	.single-page-item-block {
+		
+		// background-color: transparentize( $core-color, .2 );
+
+
+
+		.single-page-index-text {
+
+			background-color: transparentize( $core-color, .2 );
+
+			color: lighten( $core-color, 50% );
+			padding-top: 2rem;
+			padding-left: 4rem;
+			padding-right: 4rem;
+			padding-bottom: 2rem;
+			margin-bottom: 2rem;
+
+			h3 {
+				font-size: 3rem;
+			}
+
+			p {
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+
+		}
+
+	}
+
+}
+
+
+/*=====  End of SINGLE PAGE  ======*/
+
+/*=======================================
+=            FULL WIDTH PAGE            =
+=======================================*/
+
+.fullwidth-page-index-block {
+
+
+	margin-top: 6rem;
+
+	.fullwidth-page-index-img {
+
+		padding-bottom: 3rem;
+
+		img {
+			opacity: .8;
+		}
+
+	}
+
+	.fullwidth-page-item-block {
+		
+		// background-color: transparentize( $core-color, .2 );
+
+
+
+		.fullwidth-page-index-text {
+
+			background-color: transparentize( $core-color, .2 );
+
+			color: lighten( $core-color, 50% );
+			padding-top: 2rem;
+			padding-left: 4rem;
+			padding-right: 4rem;
+			padding-bottom: 2rem;
+			margin-bottom: 2rem;
+
+			h3 {
+				font-size: 3rem;
+				padding-top: 2rem;
+			}
+
+			p {
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+
+		}
+
+	}
+
+}
+
+/*=====  End of FULL WIDTH PAGE  ======*/
+
+
+
+/*===================================
+=            Main Footer            =
+===================================*/
+
+.main-footer {
+
+	margin-top: 5rem;
+	color: lighten( $core-color, 30% );
+	background-color: transparentize( lighten( $core-color, 10% ), .1 );
+
+
+	aside {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+.copyright {
+	padding-bottom: 2rem;
+	padding-top: -2rem;
+	color: lighten( $core-color, 40% );
+	// border: 1px solid red;
+}
+
+.widget {
+
+
+	padding-left: 5rem;
+
+	h3 {
+		// margin-left: 3rem;
+		color: lighten( $core-color, 35% );
+
+	}
+	ul {
+		list-style-type: none;
+		// margin-left: 5rem;
+		padding-left: 0;
+
+		li {
+			// margin-left: 0;
+
+			a {
+					// border: 1px solid red;
+
+				border-bottom: 2px solid grey;
+				padding-top: 1rem;
+				padding-bottom: .5rem;
+				padding-left: 1rem;
+				display: block;
+				@include transition(all .5s ease-in-out);
+
+				&:hover, &:focus{
+					background-color: $core-color;
+					text-decoration: none;
+					color: white;
+				}
+
+				img {
+					padding-right: 1rem;
+				}
+
+				i.fa {
+					padding-right: 1rem;
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Main Footer  ======*/
 
 
 

@@ -1,36 +1,50 @@
-     <footer class="main-footer">
-        <div class="footer-content">
-            <aside class="footer-block col-md-4 col-sm-4">
+     <footer class="main-footer container-fluid">
+        <div class="footer-content container">
+            <aside class="footer-block col-md-3 col-sm-6 widget">
                 <h3>Widget Title</h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <ul>
+                    <li><a href="#"><i class="fa fa-bar-chart"></i> Atricle Link</a></li>
+                    <li><a href="#"><i class="fa fa-group"></i> Atricle Link</a></li>
+                    <li><a href="#"><i class="fa fa-university"></i> Atricle Link</a></li>
+                    <li><a href="#"><i class="fa fa-apple"></i> Atricle Link</a></li>
+                    <li><a href="#"><i class="fa fa-chrome"></i> Atricle Link</a></li>
+                </ul>
             </aside>
-            <aside class="footer-block col-md-4 col-sm-4">
+            <aside class="footer-block col-md-3 col-sm-6 widget">
                 <h3>Widget Title</h3>
-
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <ul>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                </ul>
             </aside>
-            <aside class="footer-block col-md-4 col-sm-4">
+            <aside class="footer-block col-md-3 col-sm-6 widget">
                 <h3>Widget Title</h3>
+                <ul>
+                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/5" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/6" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/7" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/8" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/2" alt="">Atricle Link</a></li>
+                </ul>
 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </aside>
+            <aside class="footer-block col-md-3 col-sm-6 widget">
+                <h3>Widget Title</h3>
+                <ul>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                    <li><a href="#">Atricle Link</a></li>
+                </ul>
+
             </aside>
         </div>
     </footer>
+    <div class="copyright"><p class="text-center">Felix Ingenium Copyright 2015 &copy;</p></div>
     
 </div> <!-- END Canvas -->
 
