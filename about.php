@@ -14,25 +14,41 @@
     
     </figure>
       
-    <section class="main-content container-fluid">
+    <section class="main-content container">
 
       <h1 class="header-text text-center">ABOUT US</h1>
           
-      <div class="blog-index-block ">
+      <div class="about-index-block clearfix">
         
-        <div class="blog-item-block col-xs-12 col-sm-9 col-md-9 col-sm-offset-3 col-md-offset-3">
+        <div class="about-item-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
         
-          <div class="blog-article-container row">
+          <h3 class="text-center">The Team</h3>
 
-            <figure class="blog-index-img col-xs-12 col-sm-4 col-md-4">
-              
-              <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a>
-              
-            </figure>
+            <div class="slick-slider">
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            </div>
 
-            <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
+
+        </div> <!-- about-item-block -->
+
+      </div> <!-- about-index-block -->
+
+      <div class="about-index-block clearfix">
+        
+        <div class="about-item-block col-xs-12 col-sm-12 col-md-12 ">
+        
+          <div class="about-article-container row">
+
+            <article class="about-index-text col-xs-12 col-sm-12 col-md-12 text-center">
               
-              <h3>Article Title</h3>
+              <h3><i class="fa fa-chrome"></i> &nbsp;A Look Back</h3>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -41,91 +57,51 @@
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-              <p>
+              <!-- <p>
                 <a class="btn btn-primary" href="#" title="">Read More</a>
-              </p>
+              </p> -->
 
             </article>
-            
-            
 
-          </div> <!-- blog-article-container -->
+          </div> <!-- about-article-container -->
 
-        </div> <!-- blog-item-block -->
+        </div> <!-- about-item-block -->
 
-      </div> <!-- blog-index-block -->
+      </div> <!-- about-index-block -->
 
-      <div class="blog-index-block ">
+      <div class="about-index-block clearfix">
         
-        <div class="blog-item-block col-xs-12 col-sm-9 col-md-9 ">
+        <div class="about-item-block col-xs-12 col-sm-12 col-md-12 ">
         
-          <div class="blog-article-container row">
+          <div class="about-article-container row">
 
-            <figure class="blog-index-img col-xs-12 col-sm-4 col-md-4">
+            <article class="about-index-text col-xs-12 col-sm-12 col-md-12 text-center">
               
-              <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a>
-              
-            </figure>
+              <h3><i class="fa fa-eye"></i> &nbsp;Our Vision</h3>
 
-            <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
-              
-              <h3>Article Title</h3>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-              <p>
-                <a class="btn btn-primary" href="#" title="">Read More</a>
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
 
-            </article>
-
-          </div> <!-- blog-article-container -->
-
-        </div> <!-- blog-item-block -->
-
-      </div> <!-- blog-index-block -->
-
-      <div class="blog-index-block ">
-        
-        <div class="blog-item-block col-xs-12 col-sm-9 col-md-9 col-sm-offset-3 col-md-offset-3">
-        
-          <div class="blog-article-container row">
-
-            <figure class="blog-index-img col-xs-12 col-sm-4 col-md-4">
-              
-              <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a>
-              
-            </figure>
-
-            <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
-              
-              <h3>Article Title</h3>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-              <p>
+              <!-- <p>
                 <a class="btn btn-primary" href="#" title="">Read More</a>
-              </p>
+              </p> -->
 
             </article>
             
             
 
-          </div> <!-- blog-article-container -->
+          </div> <!-- about-article-container -->
 
-        </div> <!-- blog-item-block -->
+        </div> <!-- about-item-block -->
 
-      </div> <!-- blog-index-block -->
+      </div> <!-- about-index-block -->
     </section>
 
 </main>

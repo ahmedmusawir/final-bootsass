@@ -136,6 +136,83 @@ body {
 /*=====  End of BLOG INDEX SECTION  ======*/
 
 /*==========================================
+=            SPEAKERS INDEX PAGE            =
+==========================================*/
+
+.speakers-index-block {
+
+
+	margin-top: 6rem;
+
+	.speakers-item-block {
+		
+		background-color: transparentize( $core-color, .5 );
+
+
+		img {
+			opacity: .6;
+		}
+
+		a.btn {
+			margin-top: 3rem;
+		}
+
+	}
+
+}
+
+
+/*=====  End of SPEAKER INDEX PAGE  ======*/
+
+/*=====================================
+=            ABOUT US PAGE            =
+=====================================*/
+
+.about-index-block {
+
+
+	margin-top: 6rem;
+	margin-bottom: 3rem;
+	// border: 1px solid red;
+
+	.about-item-block {
+
+		background-color: transparentize( $core-color, .3 );
+
+		h3 {
+			color: lighten( $core-color, 50% );
+			padding-top: 2rem;
+			font-weight: 700;
+		}
+
+		.slick-slider {
+			// border: 1px solid yellow;
+
+			div {
+				padding-left: 1.5rem;
+				padding-top: 1rem;
+				// margin: 0 auto;
+			}
+		}
+
+		.about-index-text {
+
+			color: lighten( $core-color, 50% );
+			padding-top: 2rem;
+			padding-left: 2rem;
+			padding-bottom: 3rem;
+		}
+
+	}
+
+}
+
+
+/*=====  End of ABOUT US PAGE  ======*/
+
+
+
+/*==========================================
 =            SINGLE POST               =
 ==========================================*/
 

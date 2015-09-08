@@ -6,14 +6,12 @@
    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/jquery.onepage-scroll.min.js"></script>
-    <!-- // <script src="js/jquery.easings.min.js"></script> -->
-    <!-- // <script src="js/jquery.slimscroll.min.js"></script> -->
-    <!-- // <script src="js/jquery.fullPage.min.js"></script> -->
-    <!-- // <script src="js/wow.min.js"></script> -->
-    <script src="js/app.js"></script>
+    
     	<!-- Custom JavaScript -->
 		<script src="js/jquery.tubular.1.0.js"></script>
     	<script>

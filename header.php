@@ -9,6 +9,11 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
     <title>Off Canvas Reveal Menu Template for Bootstrap</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/set1.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
     <!-- Bootstrap core CSS -->
     <link href="style.css" rel="stylesheet">

@@ -26,7 +26,7 @@
     </p>
 
     <p>
-      <a href="#section-one" title=""><span class="intro-arrow-icon animated infinite zoomIn"><i class="fa fa-flash"></i></span></a>
+      <span class="intro-arrow-icon animated infinite zoomIn"><i class="fa fa-flash"></i></span>
     </p>
 
    </div>
@@ -59,7 +59,7 @@
       
 
         </div> <!-- end row -->
-        <div class="row bottom-block hidden-xs" >
+        <div class="row top-block hidden-xs" >
         
           <article class="col-xs-3 col-sm-2 col-md-2">
               <p>
@@ -82,7 +82,7 @@
         </div> 
         <!-- end row -->
     
-        <div class="text-center about-us-btn"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
+        <div class="text-center about-us-btn"><a href="about.php" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
 
   </div> <!-- end section-one-content -->
 
@@ -136,7 +136,7 @@
 
   </figure>
 
-  <div class="text-center"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
+  <div class="text-center"><a href="blog.php" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
 
   
 </section>
@@ -187,7 +187,7 @@
   </article> <!-- end our-speaker-iphone-content  -->
       
 
-  <div class="text-center our-speaker-btn"><a href="#" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
+  <div class="text-center our-speaker-btn"><a href="speakers.php" class="btn btn-danger btn-large" title="">Discover More <i class="fa fa-chevron-right"></i></a></div>
       
   
 </section>
