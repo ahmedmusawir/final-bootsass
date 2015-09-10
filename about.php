@@ -19,22 +19,25 @@
       <h1 class="header-text text-center">ABOUT US</h1>
           
       <div class="about-index-block clearfix">
-        
+
         <div class="about-item-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+          <article class="about-index-text col-xs-12 col-sm-12 col-md-12 text-center">
+
         
-          <h3 class="text-center">The Team</h3>
+          <h3><i class="fa fa-group"></i> &nbsp;The Team</h3>
 
-            <div class="slick-slider">
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-              <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            </div>
 
+          <div class="slick-slider">
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+          </div>
 
         </div> <!-- about-item-block -->
 
@@ -44,8 +47,6 @@
         
         <div class="about-item-block col-xs-12 col-sm-12 col-md-12 ">
         
-          <div class="about-article-container row">
-
             <article class="about-index-text col-xs-12 col-sm-12 col-md-12 text-center">
               
               <h3><i class="fa fa-chrome"></i> &nbsp;A Look Back</h3>
@@ -57,13 +58,7 @@
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-              <!-- <p>
-                <a class="btn btn-primary" href="#" title="">Read More</a>
-              </p> -->
-
             </article>
-
-          </div> <!-- about-article-container -->
 
         </div> <!-- about-item-block -->
 
@@ -73,12 +68,9 @@
         
         <div class="about-item-block col-xs-12 col-sm-12 col-md-12 ">
         
-          <div class="about-article-container row">
-
             <article class="about-index-text col-xs-12 col-sm-12 col-md-12 text-center">
               
               <h3><i class="fa fa-eye"></i> &nbsp;Our Vision</h3>
-
 
               <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -89,19 +81,12 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
 
-              <!-- <p>
-                <a class="btn btn-primary" href="#" title="">Read More</a>
-              </p> -->
-
             </article>
             
-            
-
-          </div> <!-- about-article-container -->
-
         </div> <!-- about-item-block -->
 
       </div> <!-- about-index-block -->
+
     </section>
 
 </main>

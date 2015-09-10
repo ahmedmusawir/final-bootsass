@@ -26,13 +26,28 @@
 
             <figure class="blog-index-img col-xs-12 col-sm-4 col-md-4">
               
-              <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a>
+              <a href="#" title=""><img class="img-responsive" src="img/blog-index-img-1.jpeg" alt=""></a>
+              <!-- <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a> -->
               
             </figure>
 
             <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
-              
+
               <h3>Article Title</h3>
+
+              <p class="single-post-meta">
+                <span>
+                  <i class="fa fa-calendar"></i>
+                  <a href="#" title="">1</a>
+                  <a href="#" title="">September</a>
+                  <a href="#" title="">2015</a>
+                   by <i class="fa fa-user-plus"></i>
+                   <a href="#" title="">Da Moose</a>
+                   <i class="fa fa-cog"></i>Categories:
+                   <a href="#" title="">Athiest</a>, 
+                   <a href="#" title="">Poems</a>
+                </span>
+              </p>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -63,13 +78,29 @@
 
             <figure class="blog-index-img col-xs-12 col-sm-4 col-md-4">
               
-              <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a>
+              <!-- <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a> -->
+              <a href="#" title=""><img class="img-responsive" src="img/blog-index-img-1.jpeg" alt=""></a>
+
               
             </figure>
 
             <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
               
               <h3>Article Title</h3>
+
+              <p class="single-post-meta">
+                <span>
+                  <i class="fa fa-calendar"></i>
+                  <a href="#" title="">1</a>
+                  <a href="#" title="">September</a>
+                  <a href="#" title="">2015</a>
+                   by <i class="fa fa-user-plus"></i>
+                   <a href="#" title="">Da Moose</a>
+                   <i class="fa fa-cog"></i>Categories:
+                   <a href="#" title="">Athiest</a>, 
+                   <a href="#" title="">Poems</a>
+                </span>
+              </p>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -98,13 +129,29 @@
 
             <figure class="blog-index-img col-xs-12 col-sm-4 col-md-4">
               
-              <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a>
+              <!-- <a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/350/350/abstract/2" alt=""></a> -->
+              <a href="#" title=""><img class="img-responsive" src="img/blog-index-img-1.jpeg" alt=""></a>
+
               
             </figure>
 
             <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
               
               <h3>Article Title</h3>
+
+              <p class="single-post-meta">
+                <span>
+                  <i class="fa fa-calendar"></i>
+                  <a href="#" title="">1</a>
+                  <a href="#" title="">September</a>
+                  <a href="#" title="">2015</a>
+                   by <i class="fa fa-user-plus"></i>
+                   <a href="#" title="">Da Moose</a>
+                   <i class="fa fa-cog"></i>Categories:
+                   <a href="#" title="">Athiest</a>, 
+                   <a href="#" title="">Poems</a>
+                </span>
+              </p>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -143,6 +190,20 @@
               
               <h3>Article Title</h3>
 
+              <p class="single-post-meta">
+                <span>
+                  <i class="fa fa-calendar"></i>
+                  <a href="#" title="">1</a>
+                  <a href="#" title="">September</a>
+                  <a href="#" title="">2015</a>
+                   by <i class="fa fa-user-plus"></i>
+                   <a href="#" title="">Da Moose</a>
+                   <i class="fa fa-cog"></i>Categories:
+                   <a href="#" title="">Athiest</a>, 
+                   <a href="#" title="">Poems</a>
+                </span>
+              </p>
+
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -162,7 +223,7 @@
 
       </div> <!-- blog-index-block -->
 
-            <div class="blog-index-block ">
+      <div class="blog-index-block ">
         
         <div class="blog-item-block col-xs-12 col-sm-9 col-md-9 col-sm-offset-3 col-md-offset-3">
         
@@ -177,6 +238,20 @@
             <article class="blog-index-text col-xs-12 col-sm-8 col-md-8">
               
               <h3>Article Title</h3>
+
+              <p class="single-post-meta">
+                <span>
+                  <i class="fa fa-calendar"></i>
+                  <a href="#" title="">1</a>
+                  <a href="#" title="">September</a>
+                  <a href="#" title="">2015</a>
+                   by <i class="fa fa-user-plus"></i>
+                   <a href="#" title="">Da Moose</a>
+                   <i class="fa fa-cog"></i>Categories:
+                   <a href="#" title="">Athiest</a>, 
+                   <a href="#" title="">Poems</a>
+                </span>
+              </p>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

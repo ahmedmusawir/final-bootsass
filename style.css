@@ -12123,53 +12123,114 @@ body {
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
+/* line 131, scss/_custom.scss */
+.blog-index-block .blog-item-block .blog-index-text .single-post-meta {
+  padding-top: 1.5rem;
+}
+/* line 135, scss/_custom.scss */
+.blog-index-block .blog-item-block .blog-index-text .single-post-meta a {
+  color: dodgerblue;
+}
+/* line 138, scss/_custom.scss */
+.blog-index-block .blog-item-block .blog-index-text .single-post-meta a:hover, .blog-index-block .blog-item-block .blog-index-text .single-post-meta a:focus {
+  color: #84c2ff;
+}
 
 /*=====  End of BLOG INDEX SECTION  ======*/
 /*==========================================
 =            SPEAKERS INDEX PAGE            =
 ==========================================*/
-/* line 142, scss/_custom.scss */
+/* line 158, scss/_custom.scss */
 .speakers-index-block {
   margin-top: 6rem;
 }
-/* line 147, scss/_custom.scss */
+/* line 163, scss/_custom.scss */
 .speakers-index-block .speakers-item-block {
   background-color: rgba(62, 62, 62, 0.5);
 }
-/* line 152, scss/_custom.scss */
+/* line 168, scss/_custom.scss */
 .speakers-index-block .speakers-item-block img {
   opacity: .6;
 }
-/* line 156, scss/_custom.scss */
+/* line 172, scss/_custom.scss */
 .speakers-index-block .speakers-item-block a.btn {
   margin-top: 3rem;
 }
 
 /*=====  End of SPEAKER INDEX PAGE  ======*/
+/*===========================================
+=            SINGLE SPEAKER PAGE            =
+===========================================*/
+/* line 188, scss/_custom.scss */
+.single-speaker-page-index-block {
+  margin-top: 6rem;
+}
+/* line 193, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-index-img {
+  padding-bottom: 3rem;
+}
+/* line 197, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-index-img img {
+  opacity: .8;
+}
+/* line 207, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text {
+  background-color: rgba(62, 62, 62, 0.8);
+  color: #bebebe;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+/* line 220, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text h3 {
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+/* line 225, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* line 230, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text .single-post-meta {
+  padding-top: 1.5rem;
+}
+/* line 234, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text .single-post-meta a {
+  color: dodgerblue;
+}
+/* line 237, scss/_custom.scss */
+.single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text .single-post-meta a:hover, .single-speaker-page-index-block .single-speaker-page-item-block .single-speaker-page-index-text .single-post-meta a:focus {
+  color: #84c2ff;
+}
+
+/*=====  End of SINGLE SPEAKER PAGE  ======*/
 /*=====================================
 =            ABOUT US PAGE            =
 =====================================*/
-/* line 171, scss/_custom.scss */
+/* line 258, scss/_custom.scss */
 .about-index-block {
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
-/* line 178, scss/_custom.scss */
+/* line 264, scss/_custom.scss */
 .about-index-block .about-item-block {
   background-color: rgba(62, 62, 62, 0.7);
 }
-/* line 182, scss/_custom.scss */
+/* line 268, scss/_custom.scss */
 .about-index-block .about-item-block h3 {
   color: #bebebe;
-  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-weight: 700;
 }
-/* line 191, scss/_custom.scss */
+/* line 277, scss/_custom.scss */
 .about-index-block .about-item-block .slick-slider div {
   padding-left: 1.5rem;
   padding-top: 1rem;
 }
-/* line 198, scss/_custom.scss */
+/* line 284, scss/_custom.scss */
 .about-index-block .about-item-block .about-index-text {
   color: #bebebe;
   padding-top: 2rem;
@@ -12181,20 +12242,20 @@ body {
 /*==========================================
 =            SINGLE POST               =
 ==========================================*/
-/* line 219, scss/_custom.scss */
+/* line 305, scss/_custom.scss */
 .single-blog-index-block {
   margin-top: 6rem;
 }
-/* line 223, scss/_custom.scss */
+/* line 309, scss/_custom.scss */
 .single-blog-index-block .single-blog-index-img {
   padding-left: 0px;
   padding-bottom: 3rem;
 }
-/* line 228, scss/_custom.scss */
+/* line 314, scss/_custom.scss */
 .single-blog-index-block .single-blog-index-img img {
   opacity: .8;
 }
-/* line 240, scss/_custom.scss */
+/* line 326, scss/_custom.scss */
 .single-blog-index-block .single-blog-item-block .single-blog-index-text {
   background-color: rgba(62, 62, 62, 0.8);
   color: #bebebe;
@@ -12204,19 +12265,19 @@ body {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
-/* line 251, scss/_custom.scss */
+/* line 337, scss/_custom.scss */
 .single-blog-index-block .single-blog-item-block .single-blog-index-text h3 {
   font-size: 3rem;
 }
-/* line 255, scss/_custom.scss */
+/* line 341, scss/_custom.scss */
 .single-blog-index-block .single-blog-item-block .single-blog-index-text .single-post-meta {
   padding-top: 1.5rem;
 }
-/* line 259, scss/_custom.scss */
+/* line 345, scss/_custom.scss */
 .single-blog-index-block .single-blog-item-block .single-blog-index-text .single-post-meta a {
   color: dodgerblue;
 }
-/* line 262, scss/_custom.scss */
+/* line 348, scss/_custom.scss */
 .single-blog-index-block .single-blog-item-block .single-blog-index-text .single-post-meta a:hover, .single-blog-index-block .single-blog-item-block .single-blog-index-text .single-post-meta a:focus {
   color: #84c2ff;
 }
@@ -12225,20 +12286,20 @@ body {
 /*===================================
 =            SINGLE PAGE            =
 ===================================*/
-/* line 280, scss/_custom.scss */
+/* line 368, scss/_custom.scss */
 .single-page-index-block {
   margin-top: 6rem;
 }
-/* line 285, scss/_custom.scss */
+/* line 373, scss/_custom.scss */
 .single-page-index-block .single-page-index-img {
   padding-left: 0px;
   padding-bottom: 3rem;
 }
-/* line 290, scss/_custom.scss */
+/* line 378, scss/_custom.scss */
 .single-page-index-block .single-page-index-img img {
   opacity: .8;
 }
-/* line 302, scss/_custom.scss */
+/* line 390, scss/_custom.scss */
 .single-page-index-block .single-page-item-block .single-page-index-text {
   background-color: rgba(62, 62, 62, 0.8);
   color: #bebebe;
@@ -12248,11 +12309,11 @@ body {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
-/* line 313, scss/_custom.scss */
+/* line 401, scss/_custom.scss */
 .single-page-index-block .single-page-item-block .single-page-index-text h3 {
   font-size: 3rem;
 }
-/* line 317, scss/_custom.scss */
+/* line 405, scss/_custom.scss */
 .single-page-index-block .single-page-item-block .single-page-index-text p {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -12262,19 +12323,19 @@ body {
 /*=======================================
 =            FULL WIDTH PAGE            =
 =======================================*/
-/* line 335, scss/_custom.scss */
+/* line 424, scss/_custom.scss */
 .fullwidth-page-index-block {
   margin-top: 6rem;
 }
-/* line 340, scss/_custom.scss */
+/* line 429, scss/_custom.scss */
 .fullwidth-page-index-block .fullwidth-page-index-img {
   padding-bottom: 3rem;
 }
-/* line 344, scss/_custom.scss */
+/* line 433, scss/_custom.scss */
 .fullwidth-page-index-block .fullwidth-page-index-img img {
   opacity: .8;
 }
-/* line 356, scss/_custom.scss */
+/* line 445, scss/_custom.scss */
 .fullwidth-page-index-block .fullwidth-page-item-block .fullwidth-page-index-text {
   background-color: rgba(62, 62, 62, 0.8);
   color: #bebebe;
@@ -12284,12 +12345,12 @@ body {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
-/* line 367, scss/_custom.scss */
+/* line 456, scss/_custom.scss */
 .fullwidth-page-index-block .fullwidth-page-item-block .fullwidth-page-index-text h3 {
   font-size: 3rem;
   padding-top: 2rem;
 }
-/* line 372, scss/_custom.scss */
+/* line 461, scss/_custom.scss */
 .fullwidth-page-index-block .fullwidth-page-item-block .fullwidth-page-index-text p {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -12299,39 +12360,39 @@ body {
 /*===================================
 =            Main Footer            =
 ===================================*/
-/* line 391, scss/_custom.scss */
+/* line 480, scss/_custom.scss */
 .main-footer {
   margin-top: 5rem;
   color: #8b8b8b;
   background-color: rgba(88, 88, 88, 0.9);
 }
-/* line 398, scss/_custom.scss */
+/* line 487, scss/_custom.scss */
 .main-footer aside {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-/* line 403, scss/_custom.scss */
+/* line 492, scss/_custom.scss */
 .copyright {
   padding-bottom: 2rem;
   padding-top: -2rem;
   color: #a4a4a4;
 }
 
-/* line 410, scss/_custom.scss */
+/* line 499, scss/_custom.scss */
 .widget {
   padding-left: 5rem;
 }
-/* line 415, scss/_custom.scss */
+/* line 504, scss/_custom.scss */
 .widget h3 {
   color: #979797;
 }
-/* line 420, scss/_custom.scss */
+/* line 509, scss/_custom.scss */
 .widget ul {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 428, scss/_custom.scss */
+/* line 517, scss/_custom.scss */
 .widget ul li a {
   border-bottom: 2px solid grey;
   padding-top: 1rem;
@@ -12342,17 +12403,17 @@ body {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 438, scss/_custom.scss */
+/* line 527, scss/_custom.scss */
 .widget ul li a:hover, .widget ul li a:focus {
   background-color: #3e3e3e;
   text-decoration: none;
   color: white;
 }
-/* line 444, scss/_custom.scss */
+/* line 533, scss/_custom.scss */
 .widget ul li a img {
   padding-right: 1rem;
 }
-/* line 448, scss/_custom.scss */
+/* line 537, scss/_custom.scss */
 .widget ul li a i.fa {
   padding-right: 1rem;
 }

@@ -20,23 +20,23 @@
           
       <div class="single-blog-index-block ">
 
-        <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-sm-push-8 ">
           
             <figure class="single-blog-index-img ">
               
-              <img class="img-responsive" src="http://lorempixel.com/640/640/abstract/2" alt="">
+              <img class="img-responsive" src="img/single-post-img-1.jpeg" alt="">
+              <!-- <img class="img-responsive" src="http://lorempixel.com/640/640/abstract/2" alt=""> -->
               
             </figure>
 
         </div>
         
-        <div class="single-blog-item-block col-sm-8 col-md-8 col-lg-8">
+        <div class="single-blog-item-block col-sm-8 col-md-8 col-lg-8 col-sm-pull-4">
         
           <div class="single-blog-article-container row">
 
             <article class="single-blog-index-text col-xs-12 col-sm-12 col-md-12">
               
-
               <p class="single-post-meta">
                 <span>
                   <i class="fa fa-calendar"></i>
@@ -50,7 +50,6 @@
                    <a href="#" title="">Poems</a>
                 </span>
               </p>
-
 
             </article>
 

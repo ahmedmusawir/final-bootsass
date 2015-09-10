@@ -24,7 +24,8 @@
           
             <figure class="fullwidth-page-index-img ">
               
-              <img class="img-responsive" src="http://lorempixel.com/1150/350/abstract/6" alt="">
+              <img class="img-responsive" src="img/fullwidth-img-1.jpeg" alt="">
+              <!-- <img class="img-responsive" src="http://lorempixel.com/1150/350/abstract/6" alt=""> -->
 
             </figure>
 
