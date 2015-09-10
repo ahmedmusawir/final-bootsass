@@ -37,21 +37,21 @@
   <body>
     <div class="navmenu navmenu-default navmenu-fixed-left navmenu-inverse">
       <a class="navmenu-brand" href="index.php">Felix Ingenium</a>
-      <ul class="nav navmenu-nav">
-        <li><a href="about.php">About Us</a></li>
-        <li><a href="speakers.php">Our Speakers</a></li>
-        <li class="active"><a href="blog.php">The Stack</a></li>
+      <ul class="nav navmenu-nav main-nav">
+        <li  data-page="about.php"><a href="about.php">About Us</a></li>
+        <li  data-page="speakers.php"><a href="speakers.php">Our Speakers</a></li>
+        <li  data-page="blog.php"><a href="blog.php">The Stack</a></li>
       </ul>
       <ul class="nav navmenu-nav">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
           <ul class="dropdown-menu navmenu-nav">
-            <li><a href="single-post.php">Single Post</a></li>
-            <li><a href="single-page.php">Single Page</a></li>
-            <li><a href="fullwidth-page.php">Full Width Page</a></li>
+            <li  data-page="single-post.php"><a href="single-post.php">Single Post</a></li>
+            <li  data-page="single-page.php"><a href="single-page.php">Single Page</a></li>
+            <li  data-page="fullwidth-page.php"><a href="fullwidth-page.php">Full Width Page</a></li>
             <li class="divider"></li>
             <li class="dropdown-header">Speakers</li>
-            <li><a href="single-speaker-page.php">Single Speaker Page</a></li>
+            <li  data-page="single-speaker-page.php"><a href="single-speaker-page.php">Single Speaker Page</a></li>
           </ul>
         </li>
       </ul>
