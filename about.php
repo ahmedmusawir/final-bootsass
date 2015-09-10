@@ -7,8 +7,8 @@
 
       <video autoplay loop muted poster="img/second-section.jpg" id="second-section-video">
         
-        <source src="video/video-6.webm" type="video/webm">
-        <source src="video/video-6.mp4" type="video/mp4">
+        <source src="video/video-10.webm" type="video/webm">
+        <source src="video/video-10.mp4" type="video/mp4">
 
       </video>
     
@@ -29,14 +29,23 @@
 
 
           <div class="slick-slider">
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
-            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <!-- <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/1" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/2" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/3" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/9" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/5" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/6" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/7" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="http://lorempixel.com/300/300/abstract/8" alt=""></a></div> -->
+
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-1.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-2.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-3.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-9.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-5.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-6.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-7.jpeg" alt=""></a></div>
+            <div><a href="#" title=""><img  class="img-responsive" src="img/about-img-8.jpeg" alt=""></a></div>
           </div>
 
         </div> <!-- about-item-block -->

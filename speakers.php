@@ -7,8 +7,8 @@
 
       <video autoplay loop muted poster="img/second-section.jpg" id="second-section-video">
         
-        <source src="video/video-6.webm" type="video/webm">
-        <source src="video/video-6.mp4" type="video/mp4">
+        <source src="video/video-18.webm" type="video/webm">
+        <source src="video/video-18.mp4" type="video/mp4">
 
       </video>
     
