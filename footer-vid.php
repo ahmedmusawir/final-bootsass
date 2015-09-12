@@ -20,7 +20,7 @@
     	<?php //$youtube =  '0DUoQgCnNlE'; ?> //nice and small, cannot cut any play time from the front
     	<?php //$youtube =  'JC2w3H1NpX0'; ?> //planet earth at the beging may be at the end too
     	<?php //$youtube =  'CLMQdZ-dwi4'; ?> //ok
-    	<?php //$youtube =  'DaYx4XmWEoI'; ?> //perfect
+    	<?php $youtube =  'DaYx4XmWEoI'; ?> //perfect
     	<?php //$youtube =  'tFx6wt_gI3A'; ?> //pretty cool, need to watch the full video
     	<?php //$youtube =  'txyhCiALf2Y'; ?> //End Text Kills it
     	<?php //$youtube =  '4hPiG1fr68Q'; ?> //Low video quality
@@ -31,7 +31,7 @@
     	<?php //$youtube =  'h9NnctZVrvk'; ?> //Perfect - insect creepy
     	<?php //$youtube =  '_QqfifH3-rk'; ?> //Perfect - but text flash at the end
     	<?php //$youtube =  'ryqdoe6xLs4'; ?> //Nice and Bright
-    	<?php $youtube =  'NZABo8G94cI'; ?> //Black bar at top and bottom
+    	<?php //$youtube =  'NZABo8G94cI'; ?> //Black bar at top and bottom
     	<?php //$youtube =  'yIbf5IUsaSA'; ?> //Perfect
 
     	jQuery('document').ready(function() {

@@ -103,6 +103,10 @@ body {
 
 	margin-top: 6rem;
 
+	.blog-index-nav {
+		margin-top: 4rem;
+	}
+
 	.blog-item-block {
 		
 		background-color: transparentize( $core-color, .2 );
@@ -141,6 +145,11 @@ body {
 					}
 				}
 			}
+		}
+
+		.blog-index-nav {
+
+			margin-top: 2rem;
 		}
 
 	}

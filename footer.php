@@ -23,11 +23,16 @@
             <aside class="footer-block col-md-3 col-sm-6 widget">
                 <h3>Widget Title</h3>
                 <ul>
-                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/5" alt="">Atricle Link</a></li>
+                    <!-- <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/5" alt="">Atricle Link</a></li>
                     <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/6" alt="">Atricle Link</a></li>
                     <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/7" alt="">Atricle Link</a></li>
                     <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/8" alt="">Atricle Link</a></li>
-                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/2" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="http://lorempixel.com/40/18/abstract/2" alt="">Atricle Link</a></li> -->
+                    <li><a href="#"><img src="img/footer-img-1.jpeg" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="img/footer-img-2.jpeg" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="img/footer-img-3.jpeg" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="img/footer-img-4.jpeg" alt="">Atricle Link</a></li>
+                    <li><a href="#"><img src="img/footer-img-5.jpeg" alt="">Atricle Link</a></li>
                 </ul>
 
             </aside>

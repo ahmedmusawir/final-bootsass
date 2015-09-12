@@ -20,7 +20,7 @@ $brand-primary:         darken( lightgrey, 20%);
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
 // $brand-warning:         #f0ad4e
-// $brand-danger:          #d9534f
+$brand-danger:          darken( #d9534f, 20% );
 
 //== Scaffolding
 //

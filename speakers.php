@@ -29,7 +29,7 @@
               <img src="img/12.jpg" alt="img12"/>
               <figcaption>
                 <div>
-                  <h2>Nice <span>Lily</span></h2>
+                  <h2>Sam <span>Harris</span></h2>
                   <p>Lily likes to play with crayons and pencils</p>
                 </div>
                 <a href="#">View more</a>
@@ -39,47 +39,47 @@
               <img src="img/1.jpg" alt="img1"/>
               <figcaption>
                 <div>
-                  <h2>Nice <span>Lily</span></h2>
+                  <h2>Eckhart <span>Tolly</span></h2>
                   <p>Lily likes to play with crayons and pencils</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
             <figure class="effect-ruby">
-              <img src="img/1.jpg" alt="img1"/>
+              <img src="img/2.jpg" alt="img1"/>
               <figcaption>
                 <div>
-                  <h2>Nice <span>Lily</span></h2>
+                  <h2>Richard <span>Dawkins</span></h2>
                   <p>Lily likes to play with crayons and pencils</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
             <figure class="effect-roxy">
-              <img src="img/1.jpg" alt="img1"/>
+              <img src="img/3.jpg" alt="img1"/>
               <figcaption>
                 <div>
-                  <h2>Nice <span>Lily</span></h2>
+                  <h2>Karn <span>Armstrong</span></h2>
                   <p>Lily likes to play with crayons and pencils</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
             <figure class="effect-chico">
-              <img src="img/1.jpg" alt="img1"/>
+              <img src="img/4.jpg" alt="img1"/>
               <figcaption>
                 <div>
-                  <h2>Nice <span>Lily</span></h2>
+                  <h2>Lawrence <span>Krauss</span></h2>
                   <p>Lily likes to play with crayons and pencils</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
             <figure class="effect-milo">
-              <img src="img/1.jpg" alt="img1"/>
+              <img src="img/5.jpg" alt="img1"/>
               <figcaption>
                 <div>
-                  <h2>Nice <span>Lily</span></h2>
+                  <h2>Niel <span>Tyson</span></h2>
                   <p>Lily likes to play with crayons and pencils</p>
                 </div>
                 <a href="#">View more</a>

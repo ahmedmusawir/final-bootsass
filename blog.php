@@ -274,7 +274,27 @@
 
       </div> <!-- blog-index-block -->
 
-    </section>
+      <div class="blog-index-block ">
+        
+          <div class="blog-nav-container row">
+         
+            <article class="blog-index-nav col-xs-12 col-sm-12 col-md-12">
+              
+              <p class="pull-left">
+                <a class="btn btn-danger" href="#" title=""><i class="fa fa-backward"></i></a>
+              </p>
+              <p class="pull-right">
+                <a class="btn btn-danger" href="#" title=""><i class="fa fa-forward"></i></a>
+              </p>
+
+            </article>
+
+          </div> <!-- blog-nav-container -->
+
+      </div> <!-- blog-index-block -->
+
+
+  </section>
 
 </main>
 
