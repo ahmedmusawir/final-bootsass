@@ -153,18 +153,35 @@
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="http://lorempixel.com/1150/450/abstract/1" alt="...">
+            <img src="img/frontpage-slider-img-1.jpg" alt="...">
+            <!-- <img src="http://lorempixel.com/1150/450/abstract/1" alt="..."> -->
             <div class="carousel-caption">
               
             </div>
           </div>
           <div class="item">
-            <img src="http://lorempixel.com/1150/450/abstract/2" alt="...">
+            <img src="img/frontpage-slider-img-2.jpg" alt="...">
+            <!-- <img src="http://lorempixel.com/1150/450/abstract/2" alt="..."> -->
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/frontpage-slider-img-3.jpg" alt="...">
+            <!-- <img src="http://lorempixel.com/1150/450/abstract/5" alt="..."> -->
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/frontpage-slider-img-4.jpg" alt="...">
+            <!-- <img src="http://lorempixel.com/1150/450/abstract/7" alt="..."> -->
             <div class="carousel-caption">
               
             </div>
