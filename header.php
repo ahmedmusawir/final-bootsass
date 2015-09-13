@@ -10,6 +10,8 @@
 
     <title>Off Canvas Reveal Menu Template for Bootstrap</title>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/set1.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <!-- Add the new slick-theme.css if you want the default styling -->
@@ -22,7 +24,15 @@
     <!-- Custom styles for this template -->
     <link href="css/navmenu-reveal.css" rel="stylesheet">
     <!-- <link href="style.css" rel="stylesheet"> -->
-    
+   <style type="text/css">
+      body {
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+      h1 {
+        font-weight: 700;
+      }
+   </style> 
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->

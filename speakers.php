@@ -26,51 +26,51 @@
 
           <div class="grid">
             <figure class="effect-layla">
-              <img src="img/12.jpg" alt="img12"/>
+              <img src="img/16.jpg" alt="img12"/>
               <figcaption>
                 <div>
                   <h2>Sam <span>Harris</span></h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <p>The Writer of "Waking Up"</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
-            <figure class="effect-oscar">
-              <img src="img/1.jpg" alt="img1"/>
+            <figure class="effect-layla">
+              <img src="img/17.jpg" alt="img1"/>
               <figcaption>
                 <div>
                   <h2>Eckhart <span>Tolly</span></h2>
-                  <p>Lily likes to play with crayons and pencils</p>
-                </div>
-                <a href="#">View more</a>
-              </figcaption>     
-            </figure>
-            <figure class="effect-ruby">
-              <img src="img/2.jpg" alt="img1"/>
-              <figcaption>
-                <div>
-                  <h2>Richard <span>Dawkins</span></h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <p>The Writer of "Power of Now"</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
             <figure class="effect-roxy">
-              <img src="img/3.jpg" alt="img1"/>
+              <img src="img/31.jpg" alt="img1"/>
               <figcaption>
                 <div>
-                  <h2>Karn <span>Armstrong</span></h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <h2>Richard <span>Dawkins</span></h2>
+                  <p>The Writer of "God Delusion"</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
             </figure>
-            <figure class="effect-chico">
+            <figure class="effect-roxy">
+              <img src="img/24.jpg" alt="img1"/>
+              <figcaption>
+                <div>
+                  <h2>Alan <span>Watts</span></h2>
+                  <p>The Writer of "Way of Zen"</p>
+                </div>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="effect-milo">
               <img src="img/4.jpg" alt="img1"/>
               <figcaption>
                 <div>
                   <h2>Lawrence <span>Krauss</span></h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <p>A Universe from Nothing</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     
@@ -80,7 +80,7 @@
               <figcaption>
                 <div>
                   <h2>Niel <span>Tyson</span></h2>
-                  <p>Lily likes to play with crayons and pencils</p>
+                  <p>The Cosmos - TV Show</p>
                 </div>
                 <a href="#">View more</a>
               </figcaption>     

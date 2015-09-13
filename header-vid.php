@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
     <title>Off Canvas Reveal Menu Template for Bootstrap</title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
     
