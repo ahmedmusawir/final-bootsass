@@ -1,7 +1,15 @@
 $core-color: #3e3e3e;
+// $core-color: red;
+
+html {
+	background-color: darken( $core-color, 10% );
+}
 
 body {
+	display: none;
 	position: relative;
+	background-color: darken( $core-color, 10% );
+
 	// color: red;
 }
 
